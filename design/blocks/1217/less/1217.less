@@ -1,0 +1,64 @@
+.type-1217 {
+	@color: #fff;
+	@color_option: #000;
+	@border_hover: #fdd000;
+	background-image: url ("../images/bg-header-6.jpg");
+	height: 878px;
+	.contact_us {
+		
+		color: @color;
+		font: 15px/19px 'Microsoft JhengHei','Open Sans', Helvetica, Arial, sans-serif;
+		margin: 30px 20px;
+    	padding: 30px 25px;
+    	overflow: hidden;
+    	.content_sub {
+    		color: #fff;
+		    padding: 30px 0 10px;
+		    font-size: 14px !important;
+    	}
+    	.contact_form {
+    		.form_info {
+    			.row {
+    				.padding-20 {
+    					padding: 20px;
+    					.input {
+	    					border-bottom: 2px solid #fff;
+	    					width: 100%;
+	    					max-width: 100%;
+	    					input {
+	    						background: transparent;
+	    						border: none;
+	    						padding: 8px 15px;
+	    						width: 100%;
+	    					}
+	    					input:focus {
+	    						outline: none;
+		    				}
+	    				}
+	    				.input:hover {
+	    					border-color: @border_hover;
+	    				}
+	    				.select {
+	    					background: transparent;
+	    					border: none;
+	    					border-bottom: 2px solid #fff;
+	    					padding: 8px 15px 5px 15px;
+	    					width: 100%;
+	    					max-width: 100%;
+	    					option {
+	    						color: @color_option;
+	    					}
+	    				}
+	    				.select:focus {
+	    					outline: none;
+	    				}
+	    				select:hover {
+	    					border-color: @border_hover;
+	    				}
+    				}
+    				
+    			}
+    		}
+    	}
+	}
+}

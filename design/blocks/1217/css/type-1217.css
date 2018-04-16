@@ -1,0 +1,53 @@
+.type-1217 {
+  background-image: url("../images/bg-header-6.jpg");
+  height: 878px;
+}
+.type-1217 .contact_us {
+  color: #fff;
+  font: 15px/19px 'Microsoft JhengHei', 'Open Sans', Helvetica, Arial, sans-serif;
+  margin: 30px 20px;
+  padding: 30px 25px;
+  overflow: hidden;
+}
+.type-1217 .contact_us .content_sub {
+  color: #fff;
+  padding: 30px 0 10px;
+  font-size: 14px !important;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 {
+  padding: 20px;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .input {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  max-width: 100%;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .input input {
+  background: transparent;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .input input:focus {
+  outline: none;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .input:hover {
+  border-color: #fdd000;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .select {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding: 8px 15px 5px 15px;
+  width: 100%;
+  max-width: 100%;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .select option {
+  color: #000;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 .select:focus {
+  outline: none;
+}
+.type-1217 .contact_us .contact_form .form_info .row .padding-20 select:hover {
+  border-color: #fdd000;
+}
