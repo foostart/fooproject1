@@ -46,7 +46,8 @@
         el: '.swiper-pagination',
         clickable: true,
     },
-   
+   nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
     breakpoints: {
         1200: {
           slidesPerView: 3,
