@@ -38,7 +38,7 @@
         <script>
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 0,
       slidesPerGroup: 2,
       loop: true,
       loopFillGroupWithBlank: true,
