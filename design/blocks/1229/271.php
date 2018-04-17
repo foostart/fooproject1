@@ -19,26 +19,20 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
+        <title>type-271</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">       
-      
-        <link href="<?php echo $url_path ?>/css/type-271.css" rel="stylesheet" type="text/css" /> 
-       
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
-        <title>type-271</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo $url_path ?>/css/type-271.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
-        <?php
-            include '271-content.php';
-        ?>
-       
-     
+        <?php include '271-content.php'; ?>
     </body>
-
 </html>
 
 
