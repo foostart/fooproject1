@@ -61,15 +61,14 @@
       600: {
           slidesPerView: 1,
           spaceBetween: 10,
-      },
-      
+            },
+            
 
-  } 
+        } 
 
-});
-</script>
+      });
+      </script>
     </body>
-
 </html>
 
 
