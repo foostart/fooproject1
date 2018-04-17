@@ -14,7 +14,7 @@
             <div class="contact_us">
                 <div class="contact_title"> 
                     <img src="images/contactus-title.png">
-                    <div class="content_sub">您留下的資料以及留言內容，我們將予以保密，並請您務必留下聯絡方式，確保我們的回覆能提供給您參考。</div>
+                    <div class="content_sub">The information you leave behind and the content of the message will be kept confidential. Be sure to leave your contact information to ensure that our reply can be provided for your reference.</div>
                 </div>
                 <!--Form Information-->
                 <div class="contact_form">
@@ -22,113 +22,111 @@
                         <div class="row">
                             <div class="col-md-4 padding-20">
                                 <label class="input">
-                                    <input type="text" name="name_1" placeholder="聯絡人">
+                                    <input type="text" name="name_1" placeholder="Contact person">
                                 </label>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
-                                    <option value="#" class="selected_disable">性別</option>
-                                    <option value="#" class="option_select">男性</option>
-                                    <option value="#" class="option_select">女性</option>
+                                    <option value="#" class="selected_disable">Gender</option>
+                                    <option value="#" class="option_select">Male</option>
+                                    <option value="#" class="option_select">Female</option>
                                 </select>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <label class="input">
-                                    <input type="text" name="name_1" placeholder="手機">
+                                    <input type="text" name="name_1" placeholder="Cell phone">
                                 </label>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <label class="input">
-                                    <input type="text" name="name_1" placeholder="聯絡電話">
+                                    <input type="text" name="name_1" placeholder="Contact phone number">
                                 </label>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <label class="input">
-                                    <input type="text" name="name_1" placeholder="地址">
+                                    <input type="text" name="name_1" placeholder="Address">
                                 </label>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <label class="input">
-                                    <input type="text" name="name_1" placeholder="email">
+                                    <input type="text" name="name_1" placeholder="Email">
                                 </label>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
-                                    <option value="#" class="selected_disable">空間類別</option>
-                                    <option value="#" class="option_select">住宅</option>
-                                    <option value="#" class="option_select">商業空間</option>
-                                    <option value="#" class="option_select">辦公室</option>
-                                    <option value="#" class="option_select">舊屋翻修</option>
+                                    <option value="#" class="selected_disable">Space category</option>
+                                    <option value="#" class="option_select">Residential</option>
+                                    <option value="#" class="option_select">Commercial space</option>
+                                    <option value="#" class="option_select">Office</option>
+                                    <option value="#" class="option_select">Old house renovation</option>
                                 </select>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
-                                    <option value="#" class="selected_disable">家庭成員</option>
-                                    <option value="#" class="option_select">單身獨居</option>
-                                    <option value="#" class="option_select">夫妻兩人</option>
-                                    <option value="#" class="option_select">兩代同堂</option>
-                                    <option value="#" class="option_select">三代同堂</option>
-                                    <option value="#" class="option_select">多人同住</option>
+                                    <option value="#" class="selected_disable">Family member</option>
+                                    <option value="#" class="option_select">Singleton</option>
+                                    <option value="#" class="option_select">Couples</option>
+                                    <option value="#" class="option_select">Two generations together</option>
+                                    <option value="#" class="option_select">Three generations</option>
+                                    <option value="#" class="option_select">Many people live together</option>
                                 </select>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
-                                    <option value="#" class="selected_disable">自訂預算</option>
-                                    <option value="#" class="option_select">100~150萬</option>
-                                    <option value="#" class="option_select">150~200萬</option>
-                                    <option value="#" class="option_select">200~500萬</option>
-                                    <option value="#" class="option_select">500~1000萬</option>
-                                    <option value="#" class="option_select">1000萬以上</option>
+                                    <option value="#" class="selected_disable">Custom budget</option>
+                                    <option value="#" class="option_select">100 to 1.5 million</option>
+                                    <option value="#" class="option_select">150 to 2 million</option>
+                                    <option value="#" class="option_select">200 to 5 million</option>
+                                    <option value="#" class="option_select">500 to 10 million</option>
+                                    <option value="#" class="option_select">More than 10 million</option>
                                 </select>
                             </div>
                             <div class="typehouse col-md-12">
-                                <h4>室內格局</h4>
+                                <h4>Indoor pattern</h4>
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
-                                        <option value="#" class="selected_disable">坪數</option>
-                                        <option value="#" class="option_select">30坪以下</option>
-                                        <option value="#" class="option_select">30~40坪</option>
-                                        <option value="#" class="option_select">40~60坪</option>
-                                        <option value="#" class="option_select">60~100坪</option>
+                                        <option value="#" class="selected_disable">Ping number</option>
+                                        <option value="#" class="option_select">30 pings or less</option>
+                                        <option value="#" class="option_select">30~40 pings</option>
+                                        <option value="#" class="option_select">40 to 60 pings</option>
+                                        <option value="#" class="option_select">60-100 pings</option>
                                     </select>
                                 </div>
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
-                                        <option value="#" class="selected_disable">房數</option>
-                                        <option value="#" class="option_select">1房</option>
-                                        <option value="#" class="option_select">2房</option>
-                                        <option value="#" class="option_select">3房</option>
-                                        <option value="#" class="option_select">4房</option>
-                                        <option value="#" class="option_select">5房</option>
+                                        <option value="#" class="selected_disable">Number of rooms</option>
+                                        <option value="#" class="option_select">1 room</option>
+                                        <option value="#" class="option_select">2 room</option>
+                                        <option value="#" class="option_select">3 room</option>
+                                        <option value="#" class="option_select">4 room</option>
+                                        <option value="#" class="option_select">5 room</option>
                                     </select>
                                 </div>
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
-                                        <option value="#" class="selected_disable">廳數</option>
-                                        <option value="#" class="option_select">1廳</option>
-                                        <option value="#" class="option_select">2廳</option>
-                                        <option value="#" class="option_select">3廳</option>
-                                        <option value="#" class="option_select">4廳</option>
-                                        <option value="#" class="option_select">4廳以上</option>
+                                        <option value="#" class="selected_disable">Number of halls</option>
+                                        <option value="#" class="option_select">1 hall</option>
+                                        <option value="#" class="option_select">2 hall</option>
+                                        <option value="#" class="option_select">3 hall</option>
+                                        <option value="#" class="option_select">4 hall</option>
+                                        <option value="#" class="option_select">4 or more halls</option>
                                     </select>
                                 </div>
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
-                                        <option value="#" class="selected_disable">衛數</option>
-                                        <option value="#" class="option_select">1衛</option>
-                                        <option value="#" class="option_select">2衛</option>
-                                        <option value="#" class="option_select">3衛</option>
-                                        <option value="#" class="option_select">4衛</option>
-                                        <option value="#" class="option_select">4衛以上</option>
+                                        <option value="#" class="selected_disable">Wei number</option>
+                                        <option value="#" class="option_select">1 Wei</option>
+                                        <option value="#" class="option_select">2 Wei</option>
+                                        <option value="#" class="option_select">3 Wei</option>
+                                        <option value="#" class="option_select">4 Wei</option>
+                                        <option value="#" class="option_select">More than 4 guards</option>
                                     </select>
                                 </div>
                                 <div class="col-md-12 padding-20">
-                                    <textarea rows="5" class="detail" placeholder="請留下您的訊息" >
-                                        
-                                    </textarea>    
+                                    <textarea rows="5" class="detail" placeholder="Please leave your message" ></textarea>    
                                 </div>
                                 <div class="col-md-12 padding-20">
-                                    <button type="submit" class="button">送出表單</button>   
+                                    <button type="submit" class="button">Send form</button>   
                                 </div>
                             </div>
                         </div>

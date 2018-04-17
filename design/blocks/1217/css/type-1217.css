@@ -20,9 +20,6 @@
   font-size: 14px !important;
 }
 .type-1217 .contact_us .contact_form .form_info .row .input {
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
   border-bottom: 2px solid #f0e7df;
   width: 100%;
   max-width: 100%;
@@ -40,9 +37,6 @@
   border-color: #fdd000;
 }
 .type-1217 .contact_us .contact_form .form_info .row .select {
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
   background: transparent;
   border: none;
   border-bottom: 2px solid #f0e7df;
@@ -73,9 +67,6 @@
   width: 100%;
   height: 112px;
   max-height: 112px;
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
 }
 .type-1217 .contact_us .contact_form .form_info .row .detail:focus {
   outline: none;
