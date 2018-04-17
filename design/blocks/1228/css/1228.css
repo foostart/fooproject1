@@ -5,6 +5,9 @@
   width: 1120px !important;
   height: 500px;
 }
+.type-1228 .hover {
+  cursor: pointer;
+}
 .type-1228 #swiper-horizontal,
 .type-1228 #swiper-horizontal-2 {
   margin-left: auto;
@@ -92,13 +95,102 @@
   right: auto;
   transition: left 0.5s;
 }
-@media (min-width: 991px) {
+@media (min-width: 1200px) {
   .type-1228 #swiper-vertical {
     display: none;
   }
   .type-1228 #swiper-horizontal .swiper-slide img {
     height: 60px;
     width: 115px;
+  }
+  .type-1228 #dialog-form #swiper-horizontal-2 {
+    display: none;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .type-1228 #swiper-vertical {
+    display: none;
+  }
+  .type-1228 #swiper-horizontal .swiper-slide img {
+    height: 60px;
+    width: 93px;
+  }
+  .type-1228 .img_page img {
+    width: 905px !important;
+  }
+  .type-1228 #dialog-form #swiper-horizontal-2 {
+    display: none;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .type-1228 #swiper-vertical {
+    display: none;
+  }
+  .type-1228 #swiper-horizontal .swiper-slide img {
+    height: 60px;
+    width: 93px;
+  }
+  .type-1228 .img_page img {
+    width: 671px !important;
+  }
+  .type-1228 #dialog-form #swiper-horizontal-2 {
+    display: none;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .type-1228 #swiper-vertical {
+    display: none;
+  }
+  .type-1228 #swiper-horizontal .swiper-slide img {
+    height: 60px;
+    width: 65px;
+  }
+  .type-1228 .img_page img {
+    width: 650px !important;
+  }
+  .type-1228 #dialog-form #swiper-horizontal-2 {
+    display: none;
+  }
+  .type-1228 #swiper-horizontal,
+  .type-1228 #swiper-horizontal-2 {
+    width: 85% !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .type-1228 #swiper-vertical {
+    display: none;
+  }
+  .type-1228 #swiper-horizontal .swiper-slide img {
+    height: 60px;
+    width: 65px;
+  }
+  .type-1228 #swiper-horizontal,
+  .type-1228 #swiper-horizontal-2 {
+    width: 85% !important;
+  }
+  .type-1228 .img_page img {
+    width: 378px !important;
+    height: 300px;
+  }
+  .type-1228 #dialog-form #swiper-horizontal-2 {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .type-1228 #swiper-vertical {
+    display: none;
+  }
+  .type-1228 #swiper-horizontal .swiper-slide img {
+    height: 50px;
+    width: 30px;
+  }
+  .type-1228 #swiper-horizontal,
+  .type-1228 #swiper-horizontal-2 {
+    width: 85% !important;
+  }
+  .type-1228 .img_page img {
+    width: 200px !important;
+    height: 200px;
   }
   .type-1228 #dialog-form #swiper-horizontal-2 {
     display: none;

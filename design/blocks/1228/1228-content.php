@@ -13,12 +13,12 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="type-1228">
             <div>
 
-                
-                            <div class="img_page" id="myBtn">
-                                <img id="main_img" src="images/bg-room.jpg" longdesc="images/bg-room.jpg" alt="page" />
-                            </div>
-                            
-                     
+                <div class="img_page" id="myBtn">
+                   
+                                <img id="main_img" src="images/bg-room.jpg"  alt="page" />
+                              
+                        
+                </div>
                 <div id="swiper-horizontal">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide active" data-img="images/bg-header-6.jpg">
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="swiper-button-next-3"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                    <div class="swiper-button-prev-3"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+
 
                 </div>                  
                 <div class="clearfix"></div>
@@ -62,12 +62,20 @@ $url_path = str_replace('\\', '/', $url_path);
                     loop: true,
                     breakpoints: {
                         1024: {
-                            slidesPerView: 3,
+                            slidesPerView: 7,
                             spaceBetween: 10
                         },
                         768: {
-                            slidesPerView: 3,
-                            spaceBetween: 10
+                            slidesPerView: 6,
+                            spaceBetween: 2
+                        },
+                         400: {
+                            slidesPerView: 5,
+                            spaceBetween: 2
+                        },
+                        200: {
+                            slidesPerView: 4,
+                            spaceBetween: 2
                         },
                     }
                 });
