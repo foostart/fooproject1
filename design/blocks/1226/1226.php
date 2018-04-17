@@ -28,7 +28,6 @@
         <link href="<?php echo $url_path ?>/css/1226.css" rel="stylesheet" type="text/css"/> 
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/> 
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
-        <link href="<?php echo $url_path ?>/js/bootstrap.min.js" rel="stylesheet">
         <title>1226</title>
     </head>
 

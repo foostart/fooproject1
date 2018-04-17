@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
     <script type="text/javascript">
 
@@ -152,7 +152,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 </script>
 </head>
-<body>
+<body> -->
 
     <div class="type-1226">
         <div class="container">
@@ -160,7 +160,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
                 <div class="col-md-6">
                     <div class="maps">
                         <!-- <div id="googleMap" style="width: 550px; height: 300px;">Google Map</div> -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4834147793326!2d106.75665731435122!3d10.850788992271113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527bd532d45d9%3A0x6b46595d312dcffe!2zNTMgVsO1IFbEg24gTmfDom4sIExpbmggQ2hp4buDdSwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1523871240969" width="550" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe class="col-md-6 col-xs-12 col-lg-12 col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4834147793326!2d106.75665731435122!3d10.850788992271113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527bd532d45d9%3A0x6b46595d312dcffe!2zNTMgVsO1IFbEg24gTmfDom4sIExpbmggQ2hp4buDdSwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1523871240969" width="550" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -176,5 +178,5 @@ google.maps.event.addDomListener(window, 'load', initialize);
             </div>
         </div>
     </div>
-</body>
-</html>
+<!-- </body>
+</html> -->

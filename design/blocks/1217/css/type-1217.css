@@ -1,8 +1,18 @@
 .type-1217 {
   font: 15px/19px 'Microsoft JhengHei', 'Open Sans', Helvetica, Arial, sans-serif;
   background-image: url("../images/bg-header-6.jpg");
-  min-height: 878px;
+  max-height: 878px;
   height: auto;
+}
+.type-1217 .fa {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  float: right;
+  right: 25px;
+  top: 35px;
+  z-index: 1;
+  font-size: 13px;
 }
 .type-1217 .padding-20 {
   padding: 25px;
@@ -18,11 +28,12 @@
 .type-1217 .contact_us .content_sub {
   padding: 30px 0 10px;
   font-size: 14px !important;
+  text-align: justify;
+}
+.type-1217 .contact_us .contact_title {
+  text-align: center;
 }
 .type-1217 .contact_us .contact_form .form_info .row .input {
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
   border-bottom: 2px solid #f0e7df;
   width: 100%;
   max-width: 100%;
@@ -30,7 +41,7 @@
 .type-1217 .contact_us .contact_form .form_info .row .input input {
   background: transparent;
   border: none;
-  padding: 8px 15px;
+  padding: 8px 5px 5px 5px;
   width: 100%;
 }
 .type-1217 .contact_us .contact_form .form_info .row .input input:focus {
@@ -40,13 +51,10 @@
   border-color: #fdd000;
 }
 .type-1217 .contact_us .contact_form .form_info .row .select {
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
   background: transparent;
   border: none;
   border-bottom: 2px solid #f0e7df;
-  padding: 8px 15px 5px 15px;
+  padding: 8px 5px 5px 5px;
   width: 100%;
   max-width: 100%;
 }
@@ -55,6 +63,11 @@
 }
 .type-1217 .contact_us .contact_form .form_info .row .select:focus {
   outline: none;
+}
+.type-1217 .contact_us .contact_form .form_info .row select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 .type-1217 .contact_us .contact_form .form_info .row select:hover {
   border-color: #fdd000;
@@ -73,9 +86,6 @@
   width: 100%;
   height: 112px;
   max-height: 112px;
-  transition: 0.3s all ease;
-  -webkit-transition: 0.3s all ease;
-  -moz-transition: 0.3s all ease;
 }
 .type-1217 .contact_us .contact_form .form_info .row .detail:focus {
   outline: none;
@@ -104,4 +114,14 @@
 .type-1217 .contact_us .contact_form .form_info .row .button:hover {
   background: rgba(0,0,0,0.3);
   opacity: 1;
+}
+@media all and (max-width: 991px) {
+  .type-1217 {
+    max-height: 100%;
+  }
+}
+@media all and (max-width: 991px) {
+  .type-1217 img {
+    width: 80%;
+  }
 }

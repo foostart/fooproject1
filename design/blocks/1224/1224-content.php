@@ -15,22 +15,22 @@
 	<div class="container">
 		<section class="latest-deals-area">
 			<header class="panel">
-              <section id="page-title" class="page-title-center" style="background-image: url('images/page-title-bg.jpg'); padding: 40px 0;" data-stellar-background-ratio="0.3">
-            <div class="container clearfix">
-                <h1>Residential space</h1>
+              <section id="pageee" class="page-title-center" style="background-image: url('images/page-title-bg.jpg'); " data-stellar-background-ratio="0.3">
+            
+                <h1>RESIDENTIAL APACE</h1>
                 <ol class="breadcrumb">
-                    <li><a href="?c=index">Home</a></li>
-                    <li class="active"><a>Residential space</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="">Residential space</a></li>
                 </ol>
-            </div>
+            
         </section>
 				
 			</header>
          
 
-      <ul id="portfolio-filter" class="portfolio-filter clearfix visible-lg visible-md" data-container="#portfolio">
+                        <ul id="portfolio-filter" class="portfolio-filter clearfix visible-lg visible-md" data-container="#portfolio">
                         <li class="activeFilter"><a href="#" class="oki_link" data-filter="#">ALL</a></li>
-                        <!--[qsch:loop]-->
+                       
                         <li class="activeFilter"><a href="#" class="oki_link" data-filter=".kw-01">Dark color</a></li>
                         
                         <li class="activeFilter"><a href="#" class="oki_link" data-filter=".kw-01">Light color</a></li>
@@ -48,10 +48,13 @@
                 <!--Item Deal-->
                 <div class="ptb-20 col-sm-6 col-lg-4">
                     <div class="deal-single panel">
-                        <figure class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/images/content-rooms.jpg" style="background-image: url(images/content-rooms.jpg);">
+
+                        <figure  id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" 
+                        data-bg-img="http://<?php echo $url_path ?>/images/content-rooms.jpg" style="background-image: url(images/content-rooms.jpg);">
                             
                     
                         </figure>
+
                         <div class="deal-single-content">
                             <div class="pr-md-10">
                                
@@ -69,6 +72,7 @@
                                    
                                 </ul>
                             </div>
+
                             <div class="deal-price">
                          <h3 class="price text-right"><a href="#"><font style="vertical-align: inherit;">light-colored</font>
                                 </a><font style="vertical-align: inherit;"> ,<a href="#"><font style="vertical-align: inherit;">Daping </font>
@@ -76,15 +80,19 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!--End Item deal-->
                 <!--Item Deal-->
                <div class="ptb-20 col-sm-6 col-lg-4">
                     <div class="deal-single panel">
-                        <figure class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/images/content-rooms-1.jpg" style="background-image: url(images/content-rooms-1.jpg);">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/images/works_data-370.jpg" style="background-image: url(images/content-rooms-1.jpg);">
                             
                          
                         </figure>
+
+
+
                         <div class="deal-single-content">
                             <div class="pr-md-10">
                                
@@ -115,7 +123,7 @@
                 <!--Item Deal-->
                  <div class="ptb-20 col-sm-6 col-lg-4">
                     <div class="deal-single panel">
-                        <figure class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/content-rooms-3.jpg" style="background-image: url(images/content-rooms-3.jpg);">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/works_data-371.jpg" style="background-image: url(images/content-rooms-3.jpg);">
                             
                          
                         </figure>
