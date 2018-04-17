@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <thead>
                     <tr>
                         <th>
-                            <p>project</p>
+                            <p>Project</p>
                         </th>
                         <th>
                             <p>Estimated unit price per construction</p>
@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </tr>
                     <tr>
                         <td>
-                            <p>office</p>
+                            <p>Office</p>
                         </td>
                         <td>
                             <p>10000~30000</p>
@@ -73,7 +73,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </tr>
                     <tr>
                         <td>
-                            <p>design fee</p>
+                            <p>Design fee</p>
                         </td>
                         <td>
                             <p>Calculated at 5% to 10% of the total engineering cost</p>

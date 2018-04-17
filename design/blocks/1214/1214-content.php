@@ -16,9 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--LOGO-->
                 <div class="logo" id="demo">
                     <a href="#">
-                        <img src="http://<?php echo $url_path ?>/images/logo.png"
-                             onmouseover="this.src='http://<?php echo $url_path ?>/images/logo-hover.png'"
-                             onmouseout="this.src='http://<?php echo $url_path ?>/images/logo.png'"
+                        <img src="http://<?php echo $url_path ?>/images/logo-dark.png"
                              alt=""/>
                     </a>
                 </div>
@@ -39,23 +37,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </li>
                         <!--/END SEARCH-->
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-briefcase"></i><span>&euro;0</span>
-                            </a>
-                            <div class="dropdown-menu">
-                                <p>0 items in shopping bag</p>
-                                <p class="color">Unfortunately, your shopping bag is emtpy.</p>
-                                <a href="#" class="return">Return to the Shop</a>
-                            </div>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-star"></i><span>3</span>
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <!--/CART-->
@@ -74,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <ul class="nav navbar-nav">
                         <!--MENU DROP DOWN-->
                         <li class="dropdown show-hover">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Company Profile</a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Company Profile<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <div class="arr-nav"></div>
                                 <li><a href="#">about chengshe</a></li>
@@ -82,7 +63,35 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li><a href="#">workflow</a></li>
                                 <li><a href="#">charges</a></li>
                                 <li><a href="#">case performance</a></li>
-                                
+                            </ul>
+                        </li>
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">work overview<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <div class="arr-nav"></div>
+                                <li><a href="#">residential space</a></li>
+                                <li><a href="#">comercial space</a></li>
+                                <li><a href="#">office space</a></li>         
+                            </ul>
+                        </li>
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">design team<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <div class="arr-nav"></div>
+                                <li><a href="#">daan comany</a></li>
+                                <li><a href="#">chengde company</a></li>
+                                <li><a href="#">revival one</a></li>
+                                <li><a href="#">revival II</a></li>
+                                <li><a href="#">zhongxiao company</a></li>
+                                <li><a href="#">minsheng company</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">customer service<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <div class="arr-nav"></div>
+                                <li><a href="#">online consultation</a></li>
+                                <li><a href="#">customer service</a></li>
                             </ul>
                         </li>
                         <!--/END MENU DROP DOWN-->
@@ -93,9 +102,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <!--MENU DROP DOWN-->
                         
-                        <!--/END MENU DROP DOWN-->
-
-                        <li><a href="#">Contact Us</a></li>
+                        <!--/END MENU DR
                     </ul>
                 </div><!-- /.navbar-collapse -->
 
