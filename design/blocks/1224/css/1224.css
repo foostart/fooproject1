@@ -1,0 +1,182 @@
+body {
+  background: #e9ebee;
+}
+.type-1224 {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  height: auto;
+}
+.type-1224 #page-title.page-title-center {
+  text-align: center;
+}
+.type-1224 #page-title {
+  position: relative;
+  padding: 50px 0;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #EEE;
+}
+.type-1224 .portfolio-filter {
+  position: relative;
+  margin: 0 auto 40px;
+  list-style: none;
+  float: none;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.type-1224 .latest-deals-area {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.type-1224 .latest-deals-area header {
+  padding: 15px 20px !important;
+  position: relative !important;
+  margin-bottom: 30px !important;
+  border: 0px solid transparent !important;
+}
+.type-1224 .latest-deals-area .row-masnory {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.type-1224 .latest-deals-area .ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.type-1224 .latest-deals-area .deal-single {
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  margin: 0;
+}
+.type-1224 .latest-deals-area .deal-thumbnail {
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.type-1224 .latest-deals-area .label-discount {
+  color: #fff;
+  font-size: 15px;
+  height: 50px;
+  width: 50px;
+  line-height: 48px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 999px;
+  background-color: #ff3100;
+  border: 1px dashed #fff;
+  -webkit-box-shadow: 0 0 0 2px #ff3100;
+  box-shadow: 0 0 0 2px #ff3100;
+  left: 20px !important;
+  top: 15px !important;
+}
+.type-1224 .latest-deals-area .portfolio-filter li.activeFilter a {
+  color: #000 !important;
+  border: 3px solid #fdd000;
+  font-weight: bold;
+}
+.type-1224 .latest-deals-area .portfolio-filter li {
+  float: none;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 8px;
+}
+.type-1224 .latest-deals-area .ico {
+  margin-right: 10px !important;
+}
+.type-1224 .latest-deals-area .deal-single-content {
+  background-color: #fff !important;
+  padding-right: 15px !important;
+  padding-left: 20px !important;
+  padding-top: 20px !important;
+}
+@media (min-width: 992px) {
+  .type-1224 .latest-deals-area .deal-single-content .pr-md-10 {
+    padding-right: 10px !important;
+  }
+}
+.type-1224 .latest-deals-area .deal-single-content .rating {
+  color: #ff3100;
+  margin-bottom: 10px !important;
+}
+.type-1224 .latest-deals-area .deal-single-content .rating-stars {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  white-space: nowrap;
+  display: inline-table;
+  cursor: pointer;
+}
+.type-1224 .latest-deals-area .deal-single-content .rating-stars .fa {
+  display: table-cell;
+  font-size: 16px;
+  padding: 2px;
+}
+.type-1224 .latest-deals-area .deal-single-content .rating-reviews {
+  color: #717f86;
+  margin-left: 6px;
+}
+.type-1224 .latest-deals-area .deal-single-content .deal-title {
+  margin-bottom: 10px !important;
+  font-size: 20px;
+  display: block;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0;
+}
+.type-1224 .latest-deals-area .deal-single-content a {
+  text-decoration: none;
+  color: #314555;
+  -webkit-transition: all 500ms linear 0ms;
+  -ms-transition: all 500ms linear 0ms;
+  -o-transition: all 500ms linear 0ms;
+  transition: all 500ms linear 0ms;
+}
+.type-1224 .latest-deals-area .deal-single-content a:hover {
+  text-decoration: none;
+  color: #26cc71;
+  -webkit-transition: all 500ms linear 0ms;
+  -ms-transition: all 500ms linear 0ms;
+  -o-transition: all 500ms linear 0ms;
+  transition: all 500ms linear 0ms;
+}
+.type-1224 .latest-deals-area .deal-single-content .deal-meta {
+  color: #717f86 !important;
+  margin-bottom: 10px !important;
+}
+.type-1224 .latest-deals-area .deal-single-content .deal-meta .ico {
+  margin-right: 10px !important;
+}
+.type-1224 .latest-deals-area .deal-single-content .text-muted {
+  color: #777;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.type-1224 .latest-deals-area .deal-single-content .deal-price {
+  position: relative !important;
+  margin-bottom: 15px !important;
+}
+.type-1224 .latest-deals-area .deal-single-content .deal-price .price {
+  color: #2ed87b;
+  margin-bottom: 0;
+  font-size: 20px;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.type-1224 .latest-deals-area .deal-single-content .deal-price .price-sale {
+  color: #d84523;
+  font-size: 85%;
+  text-decoration: line-through;
+  margin-right: 1em;
+}
