@@ -18,13 +18,13 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="center clearfix ">
                         <h5>Residential space example</h5>
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="abc">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <ul class="aboutcase">
                             <li>Paris 16th District Residence</li>
                             <li>Chiyoda Lee Post</li>
                             <li>Sancha Four Seasons Li Gongguan</li>
-                            <li>Four Seasons Hotel Xu Gongguan
-                            </li>
+                            <li>Four Seasons Hotel Xu Gongguan</li>
                             <li>Yixian Road Jia Mansion</li>
                             <li>Renai Fengxiang Guan Mansion</li>
                             <li>Oriental Lichi Wu Gongguan</li>
@@ -43,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li>National Century Pavilion Dinggong</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <ul id="about2" class="aboutcase">
                             <li>Guoting Meng Gongguan</li>
                             <li>Linkou Double Oak Park Yang Gongguan Villa Case</li>
@@ -63,11 +63,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li>Farglory Future City Yang Gongguan</li>
                             <li>Tianshun Liu Gongguan</li>
                             <li>Dunhua South Road Lin Gongguan</li>
-                             
+                             <li>National Century Pavilion Dinggong</li>
 
                         </ul>
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <ul class="aboutcase">
                             <li>Patek Fulin Pavilion</li>
                             <li>Taizang Taigao Mansion</li>
@@ -93,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li>Taichung Wang Gongguan Villa Case</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <ul class="aboutcase">
                             <li>Taichung Patek Philippe Fan House</li>
                             <li>Taoyuan Zhongyue Art Plaza Zhang Gongguan</li>
@@ -116,6 +116,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li>Guan Feng Hua Wen Gong Guan</li>
 
                         </ul>
+                    </div>
                     </div>
                     <div class="clear"></div>
                 </div>
