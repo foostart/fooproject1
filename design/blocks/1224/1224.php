@@ -23,6 +23,8 @@
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/1224.css" rel="stylesheet" type="text/css"/>
+    <script src="<?php echo $url_path ?>/js/height.js"></script>
+    
     <?php
     if (!class_exists('lessc')) {
         include ('./libs/lessc.inc.php');
