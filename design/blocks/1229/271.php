@@ -14,32 +14,25 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/1215.less', 'css/1215.css');
+    $less->compileFile('less/type-271.less', 'css/type-271.css');
     
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
+        <title>type-271</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">      
-        <link href="<?php echo $url_path ?>/css/1215.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
-        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>  
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>   
-        <title>type-1215</title>
+
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo $url_path ?>/css/type-271.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
-        <?php
-            include $dir_block.'/1215-content.php';
-        ?>
-       
-     
+        <?php include '271-content.php'; ?>
     </body>
-
 </html>
 
 

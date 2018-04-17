@@ -13,7 +13,7 @@
         <div class="row">
             <div class="contact_us">
                 <div class="contact_title"> 
-                    <img src="<?php echo $url_path ?>/images/contactus-title.png" alt= "img1">
+                    <img src="images/contactus-title.png">
                     <div class="content_sub">The information you leave behind and the content of the message will be kept confidential. Be sure to leave your contact information to ensure that our reply can be provided for your reference.</div>
                 </div>
                 <!--Form Information-->
@@ -27,14 +27,10 @@
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
-                                    <option value="#" class="selected_disable" >Gender</option>
+                                    <option value="#" class="selected_disable">Gender</option>
                                     <option value="#" class="option_select">Male</option>
                                     <option value="#" class="option_select">Female</option>
-                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                                 </select>
-                                <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <label class="input">
@@ -64,8 +60,6 @@
                                     <option value="#" class="option_select">Office</option>
                                     <option value="#" class="option_select">Old house renovation</option>
                                 </select>
-                                <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
@@ -76,8 +70,6 @@
                                     <option value="#" class="option_select">Three generations</option>
                                     <option value="#" class="option_select">Many people live together</option>
                                 </select>
-                                <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-md-4 padding-20">
                                 <select class="select" name="select_name">
@@ -88,8 +80,6 @@
                                     <option value="#" class="option_select">500 to 10 million</option>
                                     <option value="#" class="option_select">More than 10 million</option>
                                 </select>
-                                <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                             </div>
                             <div class="typehouse col-md-12">
                                 <h4>Indoor pattern</h4>
@@ -101,8 +91,6 @@
                                         <option value="#" class="option_select">40 to 60 pings</option>
                                         <option value="#" class="option_select">60-100 pings</option>
                                     </select>
-                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                                 </div>
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
@@ -113,10 +101,7 @@
                                         <option value="#" class="option_select">4 room</option>
                                         <option value="#" class="option_select">5 room</option>
                                     </select>
-                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                                 </div>
-                                
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
                                         <option value="#" class="selected_disable">Number of halls</option>
@@ -126,8 +111,6 @@
                                         <option value="#" class="option_select">4 hall</option>
                                         <option value="#" class="option_select">4 or more halls</option>
                                     </select>
-                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                                 </div>
                                 <div class="col-md-2 padding-20">
                                     <select class="select" name="select_detail">
@@ -138,8 +121,6 @@
                                         <option value="#" class="option_select">4 Wei</option>
                                         <option value="#" class="option_select">More than 4 guards</option>
                                     </select>
-                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
-                                    <i class="fa fa-sort-up" aria-hidden="true"></i>
                                 </div>
                                 <div class="col-md-12 padding-20">
                                     <textarea rows="5" class="detail" placeholder="Please leave your message" ></textarea>    

@@ -13,7 +13,7 @@
     }
     .navbar-default {
         background-color: transparent;
-        border-color: transparent;
+        border-color: @font-color-gray-1;
         float: left;
         width: 100%;
         border-top: 1px solid @font-color-gray-1;
@@ -25,12 +25,9 @@
         .navbar-nav> li >a {
             color: #fff;
         }
-        .navbar-nav> li >a:hover,.navbar-nav> li >a:focus {
+        .navbar-nav>.open>a,.navbar-nav>.open>a:hover {
             color: #fff;
-        }
-        .navbar-nav>.open>a,.navbar-nav>.open>a:hover,.navbar-nav>.open>a:focus {
-            color: #fff !important;
-            background-color: transparent !important;
+            background-color: transparent;
         }
         .navbar-nav>.open>li {
             transition: all 0.5s ease;
@@ -106,45 +103,37 @@
         .cart {
             transition: all 0.5s ease;
             margin: 0 40px;
-            margin-left: 0;
-            top: 30px;
         }
         .navbar-toggle {
             transition: all 0.5s ease;
-            margin-top: 8px !important;
+            margin-top: 8px;
         }
         .logo {
-            max-height: 85px !important;
             transition: all 0.5s ease;
-            margin-top: 0 !important;
+            margin-top: 0;
             img {
-                transform: scale(0.67);
-                transform-origin: left top; 
                 height: 100% !important;
                 transition: all 0.5s ease;
             }
         }
     }
     .cart {
-        margin: 25px 40px;
-        margin-left: 0;
+        margin: 20px 40px;
         transition: all 0.5s ease;
     }
-    .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    .navbar-toggle:hover,.navbar-toggle:focus {
         background-color: transparent;
-    }.navbar-default {
-        .navbar-toggle {
-            transition: all 0.5s ease;
-            border: none;
-            margin-top: 31px;
-            .icon-bar {
-                margin: 6px 0;
-                width: 28px;
-                background-color: #fff;
-            }
+    }
+    .navbar-toggle {
+        transition: all 0.5s ease;
+        border: none;
+        margin-top: 31px;
+        .icon-bar {
+            margin: 6px 0;
+            width: 28px;
+            background-color: #fff;
         }
     }
-    
     .fa {
         color: #fff;
         font-size: 22px;
@@ -283,7 +272,7 @@
             width: 7px;
             height: 13px;
             margin-left: -7px;
-            background: #3f3f3f;
+            background: transparent !important;
             box-shadow: 0 0 0 12px transparent;
             content: '';
             border-right: 9px solid transparent;
@@ -321,7 +310,7 @@
         .logo {
             transition: all 0.5s ease;
             margin-top: 10px;
-            max-height: 67px;
+            height: 60px;
             float: left;
             img {
                 transition: all 0.5s ease;
@@ -436,10 +425,6 @@
     }
     /*MENU COLAPPLE*/
     @media screen and (min-width: 768px) {
-        .navbar-default .navbar-collapse .navbar-nav {
-            margin-left: 0;
-            margin-right: 0;
-        }
         .navbar-toggle {
             display: block;
             position: absolute;
@@ -454,7 +439,7 @@
         .navbar-nav {
             .dropdown-menu {
                 left: -20px;
-                margin-top: -30px;
+
             }
             float: right;
             li {
@@ -492,13 +477,8 @@
         .arr-nav {
             display: none;
         }
-
         .navbar-nav .open .dropdown-menu>li>a:hover {
-            background-color: #333 !important;
-        }
-        .navbar-nav .open .dropdown-menu>li>a {
-            color: #fff;
-
+            background-color: #333;
         }
         .logo {
             width: 100%;
@@ -511,32 +491,8 @@
         }
         .navbar-header {
             padding: 0 20px;
-        }  
-    }
-    @media screen and (max-width: 959px) and (min-width: 768px) {
-        .cart {
-            position: absolute;
-            right: 45px;
-            top: 35px;
         }
-        .navbar-default .navbar-nav li > a {
-            padding-bottom: 5px;
-        }
-        .navbar-default .navbar-collapse .navbar-nav li > a {
-            font-size: 11px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-        .navbar-default .navbar-toggle {
-            top: 35px;
-            right: 15px;
-        }
-        .fix .navbar-toggle {
-            top: 30px !important;
-        }
-        .navbar-nav .dropdown-menu {
-            margin-top: 0;
-        }
+        
     }
 
     

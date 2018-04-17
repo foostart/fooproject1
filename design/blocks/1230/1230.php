@@ -38,8 +38,8 @@
         <script>
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
-      spaceBetween: 10,
-      slidesPerGroup: 1,
+      spaceBetween: 0,
+      slidesPerGroup: 2,
       loop: true,
       loopFillGroupWithBlank: true,
       pagination: {
@@ -49,26 +49,25 @@
    nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
     breakpoints: {
-        
-      1200: {
+        1200: {
           slidesPerView: 3,
           spaceBetween: 10,
       },
-      997: {
+      960: {
           slidesPerView: 2,
           spaceBetween: 10,
       },
-      600: {
+      480: {
           slidesPerView: 1,
           spaceBetween: 10,
-            },
-            
+      },
 
-        } 
+  } 
 
-      });
-      </script>
+});
+</script>
     </body>
+
 </html>
 
 
