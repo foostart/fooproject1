@@ -1,7 +1,6 @@
 .type-1217 {
   font: 15px/19px 'Microsoft JhengHei', 'Open Sans', Helvetica, Arial, sans-serif;
   background-image: url("../images/bg-header-6.jpg");
-  max-height: 878px;
   height: auto;
 }
 .type-1217 .fa {
@@ -13,6 +12,9 @@
   top: 35px;
   z-index: 1;
   font-size: 13px;
+}
+.type-1217 label {
+  margin-bottom: 0;
 }
 .type-1217 .padding-20 {
   padding: 25px;
@@ -26,12 +28,8 @@
   overflow: hidden;
 }
 .type-1217 .contact_us .content_sub {
-  padding: 30px 0 10px;
-  font-size: 14px !important;
-  text-align: justify;
-}
-.type-1217 .contact_us .contact_title {
-  text-align: center;
+  padding: 30px 5px 10px 0px;
+  font-size: 15px !important;
 }
 .type-1217 .contact_us .contact_form .form_info .row .input {
   border-bottom: 2px solid #f0e7df;
@@ -76,7 +74,7 @@
   padding: 0;
 }
 .type-1217 .contact_us .contact_form .form_info .row .typehouse h4 {
-  padding: 10px 40px 5px 40px;
+  padding: 0 15px;
   font-size: 15px;
 }
 .type-1217 .contact_us .contact_form .form_info .row .detail {
@@ -120,7 +118,13 @@
     max-height: 100%;
   }
 }
-@media all and (max-width: 991px) {
+@media all and (max-width: 535px) {
+  .type-1217 .content_sub {
+    text-align: justify;
+  }
+  .type-1217 .contact_title {
+    text-align: center;
+  }
   .type-1217 img {
     width: 80%;
   }

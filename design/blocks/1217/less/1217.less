@@ -1,11 +1,12 @@
 .type-1217 {
 	font: 15px/19px 'Microsoft JhengHei','Open Sans', Helvetica, Arial, sans-serif;
 	@color: #f0e7df;
+	@fontsize_label: 15px;
 	@color_option: #000;
 	@border_color: #f0e7df;
 	@border_hover: #fdd000;
 	background-image: url ("../images/bg-header-6.jpg");
-	max-height: 878px;
+	
 	height: auto;
 	.fa {
 		margin:0;
@@ -16,6 +17,9 @@
 		top: 35px;
 		z-index: 1;
 		font-size: 13px;
+	}
+	label {
+		margin-bottom: 0;
 	}
 	.padding-20 {
     	padding: 25px;
@@ -29,15 +33,11 @@
     	padding: 30px 25px;
     	overflow: hidden;
     	.content_sub {
-		    padding: 30px 0 10px;
-		    font-size: 14px !important;
-		    text-align: justify;
+		    padding: 30px 5px 10px 0px;
+		    font-size: @fontsize_label !important;
+		    
     	}
-    	.contact_title {
-    		
-    			text-align: center;
-
-    	}
+    	
     	.contact_form {
     		.form_info {
     			.row {
@@ -86,8 +86,9 @@
 	    			.typehouse {
 	    				padding: 0;
 	    				h4 {
-	    					padding: 10px 40px 5px 40px;
-	    					font-size: 15px;
+	    					padding: 0 15px;
+	    					font-size: @fontsize_label;
+	    					
 	    				}
 	    			}
 	    			.detail {
@@ -138,11 +139,18 @@
 	{
 		max-height: 100%;
 	}
-	@media all and (max-width: 991px)
-	{
-		img {
+	@media all and (max-width: 535px)
+	{	
+		.content_sub {
+			text-align: justify;
+		}
+		.contact_title {
+    		
+    			text-align: center;
+
+    	}
+    	img {
 			width: 80%;
 		}
-		
 	}
 }
