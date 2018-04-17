@@ -38,10 +38,10 @@ body {
   background-color: rgba(0,0,0,0.05);
 }
 .type-1221 .table-striped > tbody > tr:nth-child(odd):hover {
-  background-color: turquoise;
+  background-color: #d0cdcd;
 }
 .type-1221 .table-striped > tbody > tr:nth-child(even):hover {
-  background-color: #fdd000;
+  background-color: #fff;
 }
 .type-1221 .table-striped > thead > tr > th {
   background-color: #39C;
