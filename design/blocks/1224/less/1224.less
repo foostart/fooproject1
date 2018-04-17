@@ -1,38 +1,116 @@
 body{
-	 background: rgb(233,235,238)
+	 background: #fff;
 }
 .type-1224{  
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+   
     border: none;
     height: auto;
-    @color_icon: #2ed87b; 
-    @color_icon_sale: #ff3100;
     @color_write: #314555;
 
 
 
+#pageee h1:after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 2px;
+    left: 50%;
+    top: 18%;
+    margin-left: -55px;
+    background-color: #fdd000;
+}
 
-#page-title.page-title-center {
-    text-align: center;
+.panel{
+margin-left: -105px;
+    margin-right: -105px;
+}
+	
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color:transparent;
+    border-radius: 4px;
 }
 
 #page-title {
+    width: 1349px;
+    max-width:100%;
 }
-#page-title {
+#page-title .container {
     position: relative;
-    padding: 50px 0;
-    background-color: #F5F5F5;
-    border-bottom: 1px solid #EEE;
 }
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-title-center {
+    text-align: center;
+    padding: 40px 0;
+
+
+}
+
+.breadcrumb{
+a
+{color:#353f48;
+	text-decoration: none;
+}
+a:hover{text-decoration: none;
+		   		color: #fdd000;
+		   		-webkit-transition: all 500ms linear 0ms;
+                -ms-transition: all 500ms linear 0ms;
+                -o-transition: all 500ms linear 0ms;
+                transition: all 500ms linear 0ms;
+	
+}
+}
+
+
 .portfolio-filter {
     position: relative;
     margin: 0 auto 40px;
     list-style: none;
     float: none;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
+.portfolio-overlay a:hover {
+    color: rgb(253, 208, 0);
+    background-color: rgb(238, 238, 238);
+}
+.portfolio-overlay a.center-icon {
+    display: block;
+    opacity: 0;
+    margin: -20px 0px 0px -20px;
+}
+.portfolio-overlay a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(245, 245, 245);
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+    backface-visibility: hidden;
+    width: 40px;
+    height: 40px;
+    margin: -28px 0px 0px -44px;
+    border-radius: 50%;
+}
+
+.deal-single #img:hover{
+	opacity: 0.5;
+}
 
     .latest-deals-area {
     	position: relative;
@@ -42,12 +120,7 @@ body{
 	    padding-top: 30px !important;
     	padding-bottom: 30px !important;
 
-    	header {
-    		padding: 15px 20px!important;
-    		position: relative !important;
-    		margin-bottom: 30px !important;
-    		border: 0px solid transparent!important;
-    	}
+    	
     	.row-masnory {
     		margin-top: -20px;
     		margin-bottom: -20px;
@@ -86,7 +159,7 @@ body{
 		    white-space: nowrap;
 		    vertical-align: baseline;
 		    border-radius: 999px;
-		    background-color: @color_icon_sale;
+		   
 		    border: 1px dashed #fff;
 		    -webkit-box-shadow: 0 0 0 2px @color_icon_sale;
 		    box-shadow: 0 0 0 2px @color_icon_sale;
@@ -95,16 +168,32 @@ body{
 		}
 	
 		
-.portfolio-filter li.activeFilter a {
-    color: #000 !important;
+.portfolio-filter li a {
+text-decoration: none;
+
+    display: block;
+    position: relative;
+        padding: 10px 22px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #666;
+    border: 3px solid #d8d0d0;
+}
+
+
+.portfolio-filter li a:hover {
+text-decoration: none;
+    color: #333;
     border: 3px solid #fdd000;
-    font-weight: bold;
 }
 
 
 
 
-		.portfolio-filter li {
+
+	.portfolio-filter li {
+	
+	text-decoration: none;
     float: none;
     display: inline-block;
     position: relative;
@@ -121,12 +210,15 @@ body{
 			padding-right: 15px !important;
 			padding-left: 20px !important;
 			padding-top: 20px !important;
+			border: 3px solid #d8d0d0;
+
 
 			@media (min-width: 992px) {
 				.pr-md-10 {
 			    	padding-right: 10px !important;
 			    }
 			}
+
 			.rating {
 			    color: @color_icon_sale;
 			    margin-bottom: 10px !important;
@@ -157,6 +249,7 @@ body{
 			    margin: 0;
 			}
 			a {
+
 		   		text-decoration: none;
 		   		color: @color_write;
 		   		-webkit-transition: all 500ms linear 0ms;
@@ -166,7 +259,7 @@ body{
 		   }
 		   a:hover {
 		   		text-decoration: none;
-		   		color: #26cc71;
+		   		color: #fdd000;
 		   		-webkit-transition: all 500ms linear 0ms;
                 -ms-transition: all 500ms linear 0ms;
                 -o-transition: all 500ms linear 0ms;
@@ -204,5 +297,6 @@ body{
 				}
 			}
 		}
+		
 	}
 }

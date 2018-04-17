@@ -32,6 +32,8 @@
     <script src="<?php echo $url_path ?>/js/swiper.min.js" ></script>
     <script src="<?php echo $url_path ?>/js/xzoom.min.js" ></script>
     <script src="<?php echo $url_path ?>/js/1_hover.js" ></script>
+     <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
+     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>    
 
 </head>
 

@@ -40,10 +40,21 @@ body{
     .table-striped > tbody > tr:nth-child(odd){
         background-color: rgba(0,0,0,0.05);
     }
-    @media (max-width:765px)
-        {
-        .row{
-            margin: 15px;
-        }
+    .table-striped > tbody > tr:nth-child(odd):hover{
+        background-color: turquoise;
     }
+    .table-striped > tbody > tr:nth-child(even):hover{
+        background-color: #fdd000;
+    }
+    .table-striped > thead > tr > th{
+        background-color: #39C;
+        color:#fff;
+    }
+
+@media (max-width:765px)
+{
+    .row{
+        margin: 15px;
+    }
+}
 }
