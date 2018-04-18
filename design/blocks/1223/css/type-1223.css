@@ -1,3 +1,6 @@
+.type-1223 {
+  margin-top: 65px;
+}
 .type-1223 .onlineSupport {
   background-image: url(../images/page-contact-bg.jpg);
   padding-bottom: 50px;
@@ -55,6 +58,12 @@
 }
 .type-1223 .footer {
   margin-top: 45px;
+}
+.type-1223 .facebookAPI {
+  overflow: auto;
+}
+.type-1223 .fb-page {
+  overflow: auto;
 }
 @media (max-width: 500px) {
   .type-1223 .onlineSupport {
