@@ -1,4 +1,4 @@
-.type-1221 {
+body {
   background-color: #f9f9f9 !important;
 }
 .type-1221 .title h4 span.standard {
@@ -38,17 +38,14 @@
   background-color: rgba(0,0,0,0.05);
 }
 .type-1221 .table-striped > tbody > tr:nth-child(odd):hover {
-  background-color: #d0cdcd;
+  background-color: turquoise;
 }
 .type-1221 .table-striped > tbody > tr:nth-child(even):hover {
-  background-color: #fff;
+  background-color: #fdd000;
 }
 .type-1221 .table-striped > thead > tr > th {
   background-color: #39C;
   color: #fff;
-}
-.type-1221 .table-bordered>thead>tr>th {
-  border-bottom: 0px ! important;
 }
 @media (max-width: 765px) {
   .type-1221 .row {

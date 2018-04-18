@@ -1,26 +1,13 @@
 .type-1217 {
   font: 15px/19px 'Microsoft JhengHei', 'Open Sans', Helvetica, Arial, sans-serif;
   background-image: url("../images/bg-header-6.jpg");
+  min-height: 878px;
   height: auto;
-}
-.type-1217 .fa {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  float: right;
-  right: 25px;
-  top: 35px;
-  z-index: 1;
-  font-size: 13px;
-}
-.type-1217 label {
-  margin-bottom: 0;
 }
 .type-1217 .padding-20 {
   padding: 25px;
   padding-left: 15px;
   padding-right: 20px;
-  line-height: 1.3;
 }
 .type-1217 .contact_us {
   color: #f0e7df;
@@ -29,8 +16,8 @@
   overflow: hidden;
 }
 .type-1217 .contact_us .content_sub {
-  padding: 30px 5px 10px 0px;
-  font-size: 15px !important;
+  padding: 30px 0 10px;
+  font-size: 14px !important;
 }
 .type-1217 .contact_us .contact_form .form_info .row .input {
   border-bottom: 2px solid #f0e7df;
@@ -40,7 +27,7 @@
 .type-1217 .contact_us .contact_form .form_info .row .input input {
   background: transparent;
   border: none;
-  padding: 8px 5px 5px 5px;
+  padding: 8px 15px;
   width: 100%;
 }
 .type-1217 .contact_us .contact_form .form_info .row .input input:focus {
@@ -53,7 +40,7 @@
   background: transparent;
   border: none;
   border-bottom: 2px solid #f0e7df;
-  padding: 8px 5px 5px 5px;
+  padding: 8px 15px 5px 15px;
   width: 100%;
   max-width: 100%;
 }
@@ -63,11 +50,6 @@
 .type-1217 .contact_us .contact_form .form_info .row .select:focus {
   outline: none;
 }
-.type-1217 .contact_us .contact_form .form_info .row select {
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-}
 .type-1217 .contact_us .contact_form .form_info .row select:hover {
   border-color: #fdd000;
 }
@@ -75,9 +57,8 @@
   padding: 0;
 }
 .type-1217 .contact_us .contact_form .form_info .row .typehouse h4 {
-  padding: 0 15px;
-  font-size: 20px;
-  font-weight: bold;
+  padding: 10px 40px 5px 40px;
+  font-size: 15px;
 }
 .type-1217 .contact_us .contact_form .form_info .row .detail {
   color: #4d4d4d;
@@ -114,28 +95,4 @@
 .type-1217 .contact_us .contact_form .form_info .row .button:hover {
   background: rgba(0,0,0,0.3);
   opacity: 1;
-}
-@media all and (max-width: 991px) {
-  .type-1217 {
-    max-height: 100%;
-  }
-}
-@media all and (max-width: 535px) {
-  .type-1217 .content_sub {
-    text-align: justify;
-  }
-  .type-1217 .contact_title {
-    text-align: center;
-  }
-  .type-1217 img {
-    width: 80%;
-  }
-  .type-1217 .contact_us .contact_form .form_info .row .typehouse h4 {
-    font-size: 17px;
-  }
-}
-@media all and (max-width: 480px) {
-  .type-1217 .contact_us {
-    padding: 0;
-  }
 }
