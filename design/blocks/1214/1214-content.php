@@ -71,7 +71,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="arr-nav"></div>
                                 <li><a href="#">residential space</a></li>
                                 <li><a href="#">comercial space</a></li>
-                                <li><a href="#">office space</a></li>         
+                                <li><a href="#">office space</a></li>
+                                <li><a href="#">charges</a></li>         
                             </ul>
                         </li>
                         <li class="dropdown show-hover">
@@ -112,7 +113,193 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="padding-header"></div>
         <!--/END MENU-->
     </header>
+    <div class="type-647">
+            <div class="i-row">
+                <div class="container">
+                    <div class="heading">
+                        <!--TITLE-->
+                        <div class="p-title">
+                            <h2>Thức ăn gia súc gia cầm</h2>
+                        </div>
+                        <!--END TITLE-->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9 col-sm-9 col-xs-12 np">
+                            <div class="row">
+                                <!--ITEM PRODUCT LARGE-->
+                                <div class="item-large">
+                                    <div class="i-images">
+                                        <a href="#">
+                                            <img src="<?php echo $url_path ?>/images/type-3/slider1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="i-description">
+                                        <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                        <h3 class="i-title">
+                                            <a href="#">Ứng dụng hệ thống núm uống tự chảy trong chăn nuôi gà</a>
+                                        </h3>
 
+                                    </div>
+                                </div>
+                                <!--END ITEM PRODUCT LARGE-->
+                            </div>
+                            <div class="rown list-pd">
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 res">
+                                    <div class="item last-item h-item">
+                                        <div class="i-images">
+                                            <a href="#">
+                                                <img src="<?php echo $url_path ?>/images/type-3/(283x190)_crop_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="i-description">
+                                            <div class="i-label">Tin tức &amp; Sự kiện</div>
+                                            <h3 class="i-title">
+                                                <a href="#">10 năm chăn nuôi Việt Nam phát triển và hội nhập</a>
+                                            </h3>
+                                            <div class="i-content">
+                                                <h5>Là lĩnh vực chủ chốt trong SX nông nghiệp, tuy nhiên phải tới năm 2005, ngành chăn nuôi Việt Nam mới có cơ quan quản lí nhà nước riêng (Cục Chăn nuôi).</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 mg-r pd-r res h-item">
+                            <div class="item-slider">
+                                <div class="s-title">Bằng khen &amp; chứng nhận</div>
+                                <div class="slider-news">
+                                    <div id="slider-news">
+                                        <div class="s-item">
+                                            <div class="i-images"><img  src="<?php echo $url_path ?>/images/type-3/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
+                                            <div class="i-description">GIẢI THƯỞNG - 2015</div>
+                                        </div>
+                                        <div class="s-item">
+                                            <div class="i-images"><img  src="<?php echo $url_path ?>/images/type-3/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
+                                            <div class="i-description">GIẢI THƯỞNG - 2015</div>
+                                        </div>
+                                        <div class="s-item">
+                                            <div class="i-images"><img  src="<?php echo $url_path ?>/images/type-3/(150x100)_crop_bangkhen.jpg"  alt="GIẢI THƯỞNG - 2015" /></div>
+                                            <div class="i-description">GIẢI THƯỞNG - 2015</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
 
 

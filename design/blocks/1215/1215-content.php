@@ -139,9 +139,6 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <script>
     var swiper = new Swiper('.swiper-container', {
-        autoplay: {
-                    stopOnLastSlide: false,
-                  },
         slidesPerView: 1,
         spaceBetween: 10,
         loop: true,
