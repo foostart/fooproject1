@@ -20,15 +20,17 @@ jQuery(document).ready(function($) {
                     }
                 });
             }
- 
-        });
-$(document).ready(
-    function () {
-        $(".btn-menu").click(function () {
+            var $filap = $('.search-bar');
+            $filap.click(function () {
+                if(!$filap.hasClass('ap'))
+                {
+                    $filap.before($filterSpacer);
+                    $filap.addClass('ap');
+                }
+                else {
+                    $filap.removeClass('ap');
+                }
+            });
+});
 
-            
-            $("#test").hide();
-
-        });
-    }
-);
+        
