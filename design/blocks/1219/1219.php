@@ -14,7 +14,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/type-1219.less', 'css/type-1219.css');
+$less->compileFile('less/1219.less', 'css/1219.css');
 
 ?>
 <!DOCTYPE html>
@@ -26,8 +26,12 @@ $less->compileFile('less/type-1219.less', 'css/type-1219.css');
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>   
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"> 
+<<<<<<< HEAD
     <link href="<?php echo $url_path ?>/css/hover-min.css" rel="stylesheet"> 
+    <link href="<?php echo $url_path ?>/css/1219.css" rel="stylesheet" type="text/css" />   
+=======
     <link href="<?php echo $url_path ?>/css/type-1219.css" rel="stylesheet" type="text/css" />   
+>>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b
     <title>type-1219</title>
 </head>
 
