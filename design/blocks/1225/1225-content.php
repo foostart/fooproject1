@@ -11,13 +11,13 @@
             <div class="top-header">
                 <div class="tem">TEAM </div>
                     <div class="border"></div>
-                        <div class="name">
-                                <a href="#">Trang chủ<a> / <a href="#">Đội ngũ thiết kế</a>
-                        </div>
+                    <div class="name">
+                        <a href="#">Trang chủ<a> / <a href="#">Đội ngũ thiết kế</a>
+                    </div>
             </div>      
             <div class="container rescure">
                 <div class="row">   
-                    <div class="col-md-12">        
+                    <div class="col-md-12 col-xs-12">        
                         <div class="nav1 rescure1">
                             <ul class="nav nav-tabs">
                                 <li class="active"><a data-toggle="tab" href="#home">Công ty Daan</a></li>
