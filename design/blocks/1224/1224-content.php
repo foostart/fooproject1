@@ -45,7 +45,7 @@
                                     </div>  
 
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/images/works_data-370.jpg" style="background-image: url(images/content-rooms-1.jpg);">  
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="http://<?php echo $url_path ?>/images/works_data-371.jpg" style="background-image: url(images/content-rooms-1.jpg);">  
                                          
                         </figure>
                         <div class="deal-single-content">
