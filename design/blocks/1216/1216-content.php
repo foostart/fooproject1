@@ -8,30 +8,96 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1216">
-    <div class="container main" >
+    <div class="container">
         <div class="row">
-            <div class="top-links col-md-9">
-                <ul>
-                    <li><a href="#">DAAN</a><span class="vien" ></span> </li>
+            <div class="top-bar">
+                <div class="top-links"> 
+                    <ul>
+                        <li>
+                            <a href="#">Daan</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> +09546548985</p>
+                            </div>
+                          
 
-                    <li><a href="#">CHENGDE</a> <span class="vien" ></span></li>
-                    <li><a href="#">REVIVAL ONE</a> <span class="vien" ></span></li>
-                    <li><a href="#">REVIVAL II</a> <span class="vien" ></span></li>
-                    <li><a href="#">ZHONG XIAO</a> <span class="vien" ></li>
-                    <li><a href="#">LIVELIHOOD</a> <span class="vien" ></li>
-                    <li><a href="#">ZHONGSHAN</a> <span class="vien" ></li>
-                    <li><a href="#">NANXI</a> <span class="vien" ></li>
-                    <li><a href="#">NANJING</a> <span class="vien" ></li>
-                    <li><a href="#">DUNBEI</a> <span class="vien" ></li>
-                </ul>
-            </div> 
+                        </li>
+                        <li>
+                            <a href="#">ChengDe</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Revival one</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Rivival ii</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Zhong xiao</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Livelihood</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Zhongshan</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Nanxi</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">NanJing</a>
+                            <div class="b">
+                                <p class="c">Dan Company</p>
+                                <p><i class="fa fa-map-marker"></i> Street 12AA,City balabala</p>
+                                <p><i class="fa fa-phone"></i> 09546548985</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="top-text">
+                        <span class="text">No-pay consultation line</span><span> 0809-080-158</span>
+                        <i class="fa fa-facebook"></i>  
+                        <i class="fa fa-envelope"></i> 
+                        <i class="fa fa-pinterest"></i>  
+                    </div>
 
-            <div class="top-text col-md-3">
-                <span class="text">No-pay consultation line 0809-080-158</span>
-                <a href="#" class="a-icon"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="a-icon"><i class="fa fa-envelope"></i></a>
-                <a href="#" class="a-icon"><i class="fa fa-pinterest"></i></a>
-            </div>   
+                </div>
+                
+            </div>
         </div>
     </div>
 </div>
