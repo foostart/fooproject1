@@ -36,6 +36,7 @@
   min-height: 728px;
 }
 .type-1222 .aboutcase {
+  padding-left: 0px;
   list-style: url(../images/list-c.png) none inside;
 }
 @media (max-width: 691px) {
