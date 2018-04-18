@@ -4,8 +4,9 @@
 .type-1226 .info h1 {
   font-weight: bold;
   border-bottom: 3px solid orange;
-  display: inline;
-  padding-bottom: 7px;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 25px;
 }
 .type-1226 .info h2 {
   font-size: 20px;
@@ -19,13 +20,9 @@
   padding-right: 14px;
   color: grey;
 }
-.type-1226 .info a:hover {
-  background: blue;
+.type-1226 .info a {
   color: #fff;
-}
-.type-1226 .info h4 {
-  font-size: 20px;
-  padding-top: 25px;
+  background: #3b5998;
 }
 .type-1226 .info h5 {
   font-size: 20px;
@@ -52,6 +49,7 @@
     font-size: 20px;
     display: inline-block;
     padding-top: 15px;
+    margin-right: 130px;
   }
   .type-1226 .info h2 {
     font-size: 13px;

@@ -26,7 +26,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">   
         
       
-        <link href="<?php echo $url_path ?>/css/type-1220.css" rel="stylesheet" type="text/css" /> 
+        <link href="<?php echo $url_path ?>/css/1220.css" rel="stylesheet" type="text/css" /> 
        
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
         <title>type-1220</title>
