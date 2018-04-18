@@ -1,7 +1,5 @@
 .type-1219 {
   background-color: #eee;
-<<<<<<< HEAD:design/blocks/1219/css/1219.css
-<<<<<<< HEAD:design/blocks/1219/css/1219.css
   text-align: center;
 }
 .type-1219 .container {
@@ -39,10 +37,6 @@
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
-=======
->>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b:design/blocks/1219/css/type-1219.css
-=======
->>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b:design/blocks/1219/css/type-1219.css
 }
 .type-1219 h4 {
   text-align: center;
@@ -73,6 +67,7 @@
   background-color: #fff;
   color: #333;
   text-shadow: none;
+  text-decoration: none;
 }
 .type-1219 .button {
   display: inline-block;
@@ -109,11 +104,14 @@
   margin-left: 4px;
   line-height: 1.5;
 }
-.type-1219 .bode {
-  border-bottom: 1px solid;
-  color: #F9F9F9;
-  padding: 2%;
+.type-1219 .margin-tb-s {
   margin-top: 30px;
+  margin-bottom: 0px;
+}
+.type-1219 hr {
+  border-top: 1px solid #cecaca;
+  box-sizing: content-box;
+  height: 0;
 }
 .type-1219 .depa {
   color: #fdd000;
@@ -121,14 +119,19 @@
 .type-1219 .col-md-12 {
   padding: 2%;
 }
-@media (max-width: 767px) and (min-width: 480px) {
-  .type-1219 {
-    width: 90%;
-  }
-<<<<<<< HEAD:design/blocks/1219/css/1219.css
+.type-1219 .icon-line {
+  font-family: lined-icons;
 }
-.type-1219 .center {
-  text-align: center;
+.type-1219 .icon-i:hover {
+  position: relative;
+  display: block;
+  margin-right: 50px;
+}
+.type-1219 .hvr-icon-forward .hvr-icon:hover {
+  display: inline-block;
+}
+.type-1219 .hvr-icon-forward .hvr-icon {
+  display: none;
 }
 .type-1219 .in {
   font-weight: bold;
@@ -144,9 +147,4 @@
   padding-left: 13px;
   padding-right: 13px;
   background-color: #e0e0e0;
-=======
-}
-.type-1219 .center {
-  text-align: center;
->>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b:design/blocks/1219/css/type-1219.css
 }
