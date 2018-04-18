@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="center clearfix ">
                 <h5>Residential space example</h5>
             </div>
-            <div class="abc">
+            <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <ul class="aboutcase">
                         <li>Paris 16th District Residence</li>

@@ -264,7 +264,7 @@
   .type-1230 .swiper-button-next {
     width: 30px;
     height: 30px;
-    padding: 0 50px;
+    padding: 0 40px;
   }
 }
 @media all and (max-width: 280px) {
@@ -288,6 +288,6 @@
   .type-1230 .swiper-button-next {
     width: 30px;
     height: 30px;
-    padding: 0 30px;
+    padding: 0 25px;
   }
 }
