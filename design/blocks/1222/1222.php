@@ -31,7 +31,13 @@ $less->compileFile('less/type-1222.less', 'css/type-1222.css');
 
     <body>
         <?php include '1222-content.php'; ?>
+<<<<<<< HEAD
+        
+        
+        
+=======
 
+>>>>>>> be874d527e5387cb1492d50a1f32dad209aca26d
     </body>
 
 </html>
