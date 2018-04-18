@@ -12,11 +12,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>TÌM KIẾM</h1>
+                        <h1>SEARCH</h1>
                         <ol class="bread">
-                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Home page</a></li>
                             <li>/</li>
-                            <li><a href="#">Kết quả tìm kiếm</a></li>
+                            <li><a href="#">Search Results</a></li>
                         </ol>
                     </div>
                 </div>
@@ -27,44 +27,40 @@
             <div class="row">
                 <div class="row pagesearch">
                         <nav>
-                            <form class="sky-form nobottommargin" id="page-search">
+                            <form class="sky-form nobottommargin">
                                 <ul>
                                     <li>
                                         <label class="select">
                                             <select>
-                                                <option>
-                                                    Chọn hệ màu
-                                                </option>
-                                                <option value="">Tất cả</option>
-                                                <option>Hệ thống trắng</option>
+                                                <option>Select the color</option>
+                                                <option>All</option>
+                                                <option>White system</option>
                                                 
-                                                <option>Màu ánh sáng</option>
+                                                <option>Light color</option>
                                                 
-                                                <option>Hệ thống xám</option>
+                                                <option>Gray system</option>
                                                 
-                                                <option>Màu tối</option>
+                                                <option>Dark color</option>
                                             </select>
                                         </label>
                                     </li>
                                     <li>
                                         <label class="select">
                                             <select>
-                                                <option>
-                                                    Chọn số căn hộ
-                                                </option>
-                                                 <option>Tất cả</option>                                              
-                                                <option>Số căn hộ nhỏ (20)</option>
+                                                <option>apartment number</option>
+                                                 <option>All</option>                                              
+                                                <option>small apartments(20)</option>
                                                                                                  
-                                                <option>Tổng (21-40)</option>
+                                                <option>total(21-40)</option>
                                                                                                  
-                                                <option>Số Daping (40)</option>
+                                                <option>Daping (40)</option>
                                             </select>
                                             <i></i>
                                         </label>
                                     </li>
                                     <li>
                                         <label class="input">
-                                            <input placeholder="Nhập từ khóa">
+                                            <input placeholder="Enter keywords">
                                         </label>
                                     </li>
                                     <li>
@@ -76,7 +72,7 @@
                         <div class="container">
                             <hr>
                             <div class="search">
-                                <span>Sau đây là kết quả tìm kiếm, tổng cộng <span class="p1">275</span> thông tin</span>
+                                <span>The following is a search result, total <span class="p1">275</span>information</span>
                             </div>
                             <hr>
                         </div>

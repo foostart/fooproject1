@@ -77,15 +77,12 @@
     outline: none;
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-radius: 0;
     color: #404040;
 }
             hr{
                 width: 90%;
             }
             .search{
-
-                margin: 0 auto;
                 vertical-align: inherit;
                 padding: 10px;  
             p{  
@@ -108,7 +105,6 @@
         text-align: center;
         padding-bottom: 30px;
         ul{
-            margin: 0 auto;
             display: flex;
             width: 100%;
 
@@ -121,10 +117,12 @@
                      transition-duration: 0.9s;  
                 }
                 transition: transform 0.9s ease; 
+
                 label{
 
                     font-size: 13px;
                     vertical-align: inherit;
+                    width: 100%;
 
                     select{
 
@@ -132,14 +130,14 @@
                         width: 200px;
                         border: 1px solid black;
                         option{
-                        vertical-align: inherit;
-                        background: #ededed;
-                        color: black;
+                            vertical-align: inherit;
+                            background: white;
+                            color: black;
                          
                         }
-                    select:hover{
-
-                    }
+                        select:hover{
+                            color: #fdd000;
+                        }
                     }
                 }
                 margin-right: 40px;
@@ -166,5 +164,8 @@
             h1{
                 font-size: 10px;
             }
+        }
+        li{
+            margin-left: 10px;
         }
     }
