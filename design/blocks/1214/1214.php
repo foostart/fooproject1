@@ -20,7 +20,7 @@
 <html>
     <head>
         <title>1214</title>
-        <link href="images/favicon.ico" rel="shortcut icon">
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
