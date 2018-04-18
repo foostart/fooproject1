@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1215">
     <div class="container">
         <div class="row">
-         <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
+           <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" data-swiper-autoplay="2000">
                     <a>
@@ -139,20 +139,20 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <script>
     var swiper = new Swiper('.swiper-container', {
-        autoplay: {
-                    stopOnLastSlide: false,
-                  },
-        slidesPerView: 1,
-        spaceBetween: 10,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        speed: 2000,
-        nextButton: '#swiper_btn_next',
-        prevButton: '#swiper_btn_prev'
+    autoplay: {
+        delay: 5000,
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    speed: 2000,
+    nextButton: '#swiper_btn_next',
+    prevButton: '#swiper_btn_prev'
 
-    });
+});
     
 </script>

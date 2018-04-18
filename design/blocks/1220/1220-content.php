@@ -27,9 +27,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-8 col-sm-8 col-xs-8">
                     <h3>BUSINESS NEGOTIATIONS</h3>
                     <p>Understand the owner's needs.
-                        <br><strong>Residential</strong> family population, living habits, special preferences, project budget, equipment and furniture usage, schedules, etc. 
-                        <br><strong>Office</strong> company members, organization profiles, process relationships of various departments of corporate image, use of business machines, estimates of growth in the next three to five years, project budgets, schedules, etc. 
-                        <br><strong>The business space </strong>,business nature, business philosophy, understanding of the geographical environment, line analysis, product positioning and understanding of the object of appeal ... and so on.</p>
+                        <br><strong>Residential</strong> family population,  equipment and furniture usage, schedules, etc. 
+                        <br><strong>Office</strong>  estimates of growth in the next three to five years, project budgets, schedules, etc. 
+                        <br><strong>The business space </strong>,business nature,  understanding of the object of appeal ... and so on.</p>
 
                     </div>
                     <div class="divider divider-center"><i > . </i></div>
@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="col-md-8 col-sm-8 col-xs-8">
                     <h3>SIGN A DESIGN CONTRACT</h3>
-                    <p>If the landlord is satisfied with the draft provided in the preceding paragraph and is satisfied that further discussion is necessary, the two parties sign a “design contract” so that we can provide more detailed services and make necessary corrections and various detailed designs for the case.</p>
+                    <p>If the landlord is satisfied with the draft provided that further discussion is necessary, the two parties sign a “design contract” so that we can provide more detailed services and make necessary corrections and various detailed designs for the case.</p>
 
                     </div>
                     <div class="divider divider-center"><i > . </i></div>

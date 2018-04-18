@@ -15,21 +15,21 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="tit">
                         <span class="tittle">TẦM NHÌN CỦA</span><span class="tittle tittle-sub"> CÔNG TY</span>
                     </div>
                     <div class="boder boder-text"></div>
                     <p class="content">Sau khi liên tục liên lạc nội bộ và điều phối, mỗi mục tiêu cá nhân được tích hợp và mục tiêu chung của công ty là nâng cao chất lượng cuộc sống. Sự đổi mới liên tục của thiết kế và kết cấu kỹ thuật là tầm nhìn của công ty.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="tit">
                         <span class="tittle">TẦM NHÌN CỦA</span><span class="tittle tittle-sub"> CÔNG TY</span>
                     </div>
                     <div class="boder boder-text"></div>
                     <p class="content">Sau khi liên tục liên lạc nội bộ và điều phối, mỗi mục tiêu cá nhân được tích hợp và mục tiêu chung của công ty là nâng cao chất lượng cuộc sống. Sự đổi mới liên tục của thiết kế và kết cấu kỹ thuật là tầm nhìn của công ty.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="tit">
                         <span class="tittle">TẦM NHÌN CỦA</span><span class="tittle tittle-sub"> CÔNG TY</span>
                     </div>

@@ -150,3 +150,21 @@
   height: 0;
   border-top: 1px solid #EEE;
 }
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .type-1229 .portfolio .description .case_info_detail .col1 {
+    width: 30%;
+    float: left;
+  }
+  .type-1229 .portfolio .description .case_info_detail .col2 {
+    width: 70%;
+    float: left;
+  }
+}
+@media screen and (max-width: 480px) {
+  .type-1229 .post_navigation .col_post .post .content_post .post_title h5 {
+    font-size: 13px;
+  }
+  .type-1229 .post_navigation .col_post .post .content_post span a {
+    font-size: 12px;
+  }
+}

@@ -13,28 +13,28 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-8 description">
                 <dl class="case_info_detail">
                     <div class="row">
-                        <dt class="col-md-3 col-sm-3">Nature of space</dt>
-                        <dd class="col-md-9 col-xs-9">Residential space</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Nature of space</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Residential space</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col-md-3 col-sm-3">Location</dt>
-                        <dd class="col-md-9 col-xs-9">New forest district</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Location</dt>
+                        <dd class="col2 col-md-9 col-sm-9">New forest district</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col-md-3 col-sm-3">Building area</dt>
-                        <dd class="col-md-9 col-xs-9">36 pings</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Building area</dt>
+                        <dd class="col2 col-md-9 col-sm-9">36 pings</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col-md-3 col-sm-3">Indoor pattern</dt>
-                        <dd class="col-md-9 col-xs-9">Living room, dining room, study, master bedroom, guest room</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Indoor pattern</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Living room, dining room, study, master bedroom, guest room</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col-md-3 col-sm-3">Main material</dt>
-                        <dd class="col-md-9 col-xs-9">Solid wood peel, US resistant board, painted iron, painted glass, sandblasted glass, matte quartz brick</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Main material</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Solid wood peel, US resistant board, painted iron, painted glass, sandblasted glass, matte quartz brick</dd>
                     </div>
                 </dl>
 
