@@ -20,21 +20,15 @@ jQuery(document).ready(function($) {
                     }
                 });
             }
-            var $fill = $('.navbar-default');
-            if ($fill.size())
-            {
-                $(window).scroll(function ()
-                {
-                    if (!$filter.hasClass('fix-nav') && $(window).scrollTop() > 0)
-                    {
-                        $filter.before($filterSpacer);
-                        $filter.addClass("fix-nav");
-                    }
-                    else if ($filter.hasClass('fix-nav')  && $(window).scrollTop() == 0)
-                    {
-                        $filter.removeClass("fix-nav");
-                        $filterSpacer.remove();
-                    }
-                });
-            }
+ 
         });
+$(document).ready(
+    function () {
+        $(".btn-menu").click(function () {
+
+            
+            $("#test").hide();
+
+        });
+    }
+);

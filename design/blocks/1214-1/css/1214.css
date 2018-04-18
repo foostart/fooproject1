@@ -11,9 +11,6 @@
   width: 100%;
   padding: 0 30px;
 }
-.type-1214 .fix-nav {
-  position: absolute !important;
-}
 .type-1214 .navbar-default {
   position: relative;
   background-color: #fff;
@@ -77,9 +74,9 @@
   padding-right: 15px;
 }
 .type-1214 .fix {
-  position: absolute !important;
-  transition: all 0.5s ease;
+  position: fixed !important;
   background-color: transparent;
+  transition: all 0.5s ease;
 }
 .type-1214 .fix .navbar-nav li ul {
   margin-top: 0px;
