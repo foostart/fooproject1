@@ -1,6 +1,19 @@
 .type-1228 {
   padding-top: 50px;
 }
+.type-1228 .swiper-container {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.type-1228 .swiper-container .swiper-wrapper {
+  height: auto !important;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+}
 .type-1228 .img_page img {
   width: 1120px !important;
   height: 500px;
@@ -97,7 +110,7 @@
 }
 @media (min-width: 1200px) {
   .type-1228 #swiper-vertical {
-    display: none;
+    display: block;
   }
   .type-1228 #swiper-horizontal .swiper-slide img {
     height: 60px;

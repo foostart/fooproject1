@@ -2,7 +2,23 @@
 
     padding-top: 50px;
 
-
+.swiper-container{
+        position:relative;
+        overflow:hidden;
+        z-index:1
+    }
+    .swiper-container {       
+        .swiper-wrapper {
+            height: auto!important;
+            position:relative;
+            width:100%;
+            height:100%;
+            z-index:1;     
+            display:flex;          
+           
+        }
+    }
+    
     .img_page {
 
         img {
@@ -82,7 +98,7 @@
 
     @media (min-width: 1200px) {
         #swiper-vertical {
-            display: none;
+            display: block;
         }
         #swiper-horizontal .swiper-slide img{
             height: 60px;

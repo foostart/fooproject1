@@ -168,11 +168,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
                 <div class="col-md-6">
                     <div class="info"> 
                         <h1>Contact: </h1> 
-                        <h4><i class="fa fa-location-arrow" aria-hidden="true"> &nbsp; &nbsp; Address: HCM City</i></h4>
-                        <h2><i class="fa fa-fax" aria-hidden="true"> &nbsp; &nbsp; 08.0808.0808</i></h2>
-                        <h2><i class="fa fa-fax" aria-hidden="true"> &nbsp; &nbsp; 08.0808.0808</i></h2>
-                        <h5><i class="fa fa-envelope-o" aria-hidden="true"> &nbsp; &nbsp; tdc.edu@gmail.com</i></h5>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>                                   
+                        <h4><i class="fa fa-home" aria-hidden="true">&nbsp; &nbsp;&nbsp;&nbsp;|&nbsp; &nbsp; Address: HCM City</i></h4>
+                        <h2><i class="fa fa-fax" aria-hidden="true">&nbsp;&nbsp;&nbsp; |&nbsp; 08.0808.0808</i></h2>
+                        <h2><i class="fa fa-fax" aria-hidden="true">&nbsp;&nbsp;&nbsp; |&nbsp; 08.0808.0808</i></h2>
+                        <h5><i class="fa fa-envelope-o" aria-hidden="true">&nbsp;&nbsp;&nbsp; |&nbsp; tdc.edu@gmail.com</i></h5>
+                        <a href="#" class="hvr-sweep-to-top"><i class="fa fa-facebook" aria-hidden="true"></i></a>                                   
                     </div>
                 </div>
             </div>
