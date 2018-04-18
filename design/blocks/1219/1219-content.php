@@ -11,6 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
   <div class="container center">
     <div class="row">
 <<<<<<< HEAD
+<<<<<<< HEAD
          <div class="in">COMPANY ORGANIZATION
               <span class="depa">BRANCH</span>
           </div>
@@ -169,6 +170,84 @@ $url_path = str_replace('\\', '/', $url_path);
            </span>
          </a>
 
+=======
+     <div class="bode">
+       <div class="heading-block">
+         <h4>
+           <font>COMPANY ORGANIZATION</font>
+           <span class="depa">
+             <font>BRANCH</font>
+           </span>
+           <div class="boder"></div>
+         </h4>
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font >Daan Company</font>
+           </span>
+         </a>
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Chengde company</font>
+           </span>
+         </a>
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Revival One</font>
+           </span>
+         </a>
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Revival II</font>
+           </span>
+         </a>
+
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Zhongxiao Company</font>
+           </span>
+         </a>
+
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Minsheng Company</font>
+           </span>
+         </a>
+
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Zhongshan Company</font>
+           </span>
+         </a>
+
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>South West Company</font>
+           </span>
+         </a>
+
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Nanjing company</font>
+           </span>
+         </a>
+
+         <a href="#" class="button">
+           <i class="icon-line-arrow-right"></i>
+           <span>
+             <font>Dunbei Company</font>
+           </span>
+         </a>
+
+>>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b
          <a href="#" class="button">
            <i class="icon-line-arrow-right"></i>
            <span>
@@ -176,6 +255,9 @@ $url_path = str_replace('\\', '/', $url_path);
            </span>
          </a>
        </div>
+<<<<<<< HEAD
+>>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b
+=======
 >>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b
      </div>
      <div class="col-md-12">

@@ -27,9 +27,12 @@ $less->compileFile('less/1219.less', 'css/1219.css');
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>   
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"> 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link href="<?php echo $url_path ?>/css/hover-min.css" rel="stylesheet"> 
     <link href="<?php echo $url_path ?>/css/1219.css" rel="stylesheet" type="text/css" />   
 =======
+=======
+>>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b
     <link href="<?php echo $url_path ?>/css/type-1219.css" rel="stylesheet" type="text/css" />   
 >>>>>>> e5dcb43c1341d4d904cb0ffc7a2c825e6ae0129b
     <title>type-1219</title>
