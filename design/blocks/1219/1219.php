@@ -26,7 +26,6 @@ $less->compileFile('less/type-1219.less', 'css/type-1219.css');
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>   
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"> 
-    <link href="<?php echo $url_path ?>/css/hover-min.css" rel="stylesheet"> 
     <link href="<?php echo $url_path ?>/css/type-1219.css" rel="stylesheet" type="text/css" />   
     <title>type-1219</title>
 </head>

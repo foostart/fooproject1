@@ -1,0 +1,110 @@
+.type-271{
+    @color:rgba(102,114,121,1);
+    
+
+   
+    .vc_column-inner {
+        padding-top: 0;
+        text-align:center;
+    }
+    h2 {
+        line-height: 1.2;
+        margin: 28px 0 14px;
+        position: relative;
+        font-size: 30px;
+
+        font-family: 'Domine';
+        font-weight: normal;
+        font-style: normal;
+
+        color: @color;
+
+        small {
+            color: inherit;
+
+            font-size: 50%;
+            font-weight: normal;
+
+            display: block;
+            opacity: 0.8;
+            line-height: 1.2;
+        }
+    }
+    h2[style*='center'] {
+        margin-bottom: 62px;
+    }
+    h2::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 6rem;
+        border-bottom: 3px solid;
+        margin-top: 12px;
+        margin-left: -30px;
+        left: 50%;
+
+        border-bottom-color: rgba(192,57,43,1);
+    }
+    p {
+     
+
+        font-family: 'Roboto';
+        font-weight: 300;
+        text-transform: none;
+        font-size: 16px;
+        color: rgba(102,114,121,1);
+    }
+    img {
+
+        max-width: 100%;
+        height: auto;
+    }
+    img[class*=wp-image] {
+        transition: all 200ms ease-in;
+        box-sizing: border-box;
+    }
+    .aligncenter {
+        margin: 10px 0;
+        float: none;
+    }
+    a {
+        color: rgba(54,61,64,1);
+    }
+    a:hover {
+        color: @color;
+    }
+    .btn {
+        height: auto;
+        transition: all 200ms ease-in;
+        border-radius: 2px;
+        outline: none!important;
+        font-weight: bold;
+
+        font-family: 'Roboto';
+        font-size: 14px;
+    }
+    .btn.btn-inline {
+        padding: 9px 0;
+        display: inline-block;
+        white-space: normal;
+        border: none;
+        background: transparent;
+        margin-bottom:30px;
+    }
+    @media screen and (max-width: 500px){
+        img{
+            width: 100% !important;
+        }
+        h2{
+            font-size:15px;
+        }
+        
+       
+
+    }
+     
+    .aligncenter:hover {
+        opacity: .8;
+    
+    }
+}

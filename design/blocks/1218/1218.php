@@ -28,7 +28,7 @@
         <link href="<?php echo $url_path ?>/css/1218.css" rel="stylesheet" type="text/css" /> 
        
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
-        <title>type-1218</title>
+        <title>type-271</title>
     </head>
 
     <body>

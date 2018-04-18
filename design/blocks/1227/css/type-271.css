@@ -1,0 +1,89 @@
+.type-271 .vc_column-inner {
+  padding-top: 0;
+  text-align: center;
+}
+.type-271 h2 {
+  line-height: 1.2;
+  margin: 28px 0 14px;
+  position: relative;
+  font-size: 30px;
+  font-family: 'Domine';
+  font-weight: normal;
+  font-style: normal;
+  color: #667279;
+}
+.type-271 h2 small {
+  color: inherit;
+  font-size: 50%;
+  font-weight: normal;
+  display: block;
+  opacity: 0.8;
+  line-height: 1.2;
+}
+.type-271 h2[style*='center'] {
+  margin-bottom: 62px;
+}
+.type-271 h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 6rem;
+  border-bottom: 3px solid;
+  margin-top: 12px;
+  margin-left: -30px;
+  left: 50%;
+  border-bottom-color: #c0392b;
+}
+.type-271 p {
+  font-family: 'Roboto';
+  font-weight: 300;
+  text-transform: none;
+  font-size: 16px;
+  color: #667279;
+}
+.type-271 img {
+  max-width: 100%;
+  height: auto;
+}
+.type-271 img[class*=wp-image] {
+  transition: all 200ms ease-in;
+  box-sizing: border-box;
+}
+.type-271 .aligncenter {
+  margin: 10px 0;
+  float: none;
+}
+.type-271 a {
+  color: #363d40;
+}
+.type-271 a:hover {
+  color: #667279;
+}
+.type-271 .btn {
+  height: auto;
+  transition: all 200ms ease-in;
+  border-radius: 2px;
+  outline: none !important;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.type-271 .btn.btn-inline {
+  padding: 9px 0;
+  display: inline-block;
+  white-space: normal;
+  border: none;
+  background: transparent;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 500px) {
+  .type-271 img {
+    width: 100% !important;
+  }
+  .type-271 h2 {
+    font-size: 15px;
+  }
+}
+.type-271 .aligncenter:hover {
+  opacity: .8;
+}

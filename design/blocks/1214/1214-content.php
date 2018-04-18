@@ -71,8 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="arr-nav"></div>
                                 <li><a href="#">residential space</a></li>
                                 <li><a href="#">comercial space</a></li>
-                                <li><a href="#">office space</a></li>
-                                <li><a href="#">charges</a></li>         
+                                <li><a href="#">office space</a></li>         
                             </ul>
                         </li>
                         <li class="dropdown show-hover">
