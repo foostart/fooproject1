@@ -6,9 +6,6 @@
     preg_match_all($pattern_uri, __DIR__, $matches);
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
-        
-    $less = new lessc;
-    $less->compileFile('less/1223.less', 'css/1223.css');
 ?>
 
  <div id="fb-root"></div>
