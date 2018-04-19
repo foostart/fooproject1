@@ -10,7 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1215">
     <div class="container">
         <div class="row">
-           <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
+         <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" data-swiper-autoplay="2000">
                     <a>
@@ -39,87 +39,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </a>
                 </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-16.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-17.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-18.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-19.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-20.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-21.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-22.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-23.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-24.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
-                        </div>
-                    </a>
-                </div>
             </div>
             
             <div id="swiper_btn_prev" class="swiper_btn">
@@ -139,20 +58,20 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <script>
     var swiper = new Swiper('.swiper-container', {
-    autoplay: {
-        delay: 5000,
-    },
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    speed: 2000,
-    nextButton: '#swiper_btn_next',
-    prevButton: '#swiper_btn_prev'
+        autoplay: {
+            delay: 5000,
+        },
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        speed: 2000,
+        nextButton: '#swiper_btn_next',
+        prevButton: '#swiper_btn_prev'
 
-});
+    });
     
 </script>
