@@ -2,14 +2,16 @@
 .type-1216{
     @color-text: #555;
     @color-border: yellow;
-    @color-icon: blue;
-    
+    @color-icon: #3b5998;
     li{
         list-style:none;
         float:left;
     }
     a{
         text-decoration:none;
+    }
+    .main{
+        margin: 0;
     }
     .top-bar{
     .top-links{
@@ -52,7 +54,7 @@
                 position: absolute;
                 border-width: 7px;
                 border-style: solid;
-                top: 109px;
+                top: 111px;
 
             } 
 
@@ -73,6 +75,17 @@
         float: right;
         font-size: 15px;
         margin-right: 40px;
+
+        .email:hover{
+            background-color: #ac3e31;
+            color: #fff;
+            transition: 0.5s;
+        }
+        .prin:hover{
+             background-color: #bd081c;
+            color: #fff;
+            transition: 0.5s;
+        }
         span{
              border-bottom: 2px solid @color-border;
              padding: 5px 0;
@@ -96,16 +109,17 @@
         }
       }
     }
-   @media (max-width: 200px) 
+   @media (max-width: 600px) 
    {
    .top-text{
         padding-top: 10px;
         width:85%;
-        margin-left:40px; 
+        padding-left: 35px;
         i{
             margin-top: 10px; 
         }
    }
    }
+
 
 }

@@ -8,7 +8,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1216">
-    <div class="row">
+    <div class="row main">
         <div class="top-bar">
             <div class="top-links"> 
                 <ul>
@@ -90,8 +90,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="top-text">
                     <span class="text">No-pay consultation line</span><span> 0809-080-158</span>
                     <i class="fa fa-facebook"></i>  
-                    <i class="fa fa-envelope"></i> 
-                    <i class="fa fa-pinterest"></i>  
+                    <i class="fa fa-envelope email"></i> 
+                    <i class="fa fa-pinterest prin"></i>  
                 </div>
             </div>
         </div>
