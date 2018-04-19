@@ -98,6 +98,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.type-e-1224 #img {
+  data-bg-img: url(../images/works_data-371.jpg);
+  background-image: url(../images/works_data-369.jpg);
+}
 .type-e-1224 .deal-thumbnail {
   background-position: center;
   background-repeat: no-repeat;
@@ -345,7 +349,7 @@ body {
   float: left;
   color: #565555;
   list-style-type: none;
-  margin: 0 0 30px;
+  margin: 0 0 -44px;
   position: relative;
 }
 .type-e-1224 .rescure .related .products .product .product-list-item {
