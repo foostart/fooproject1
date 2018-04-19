@@ -6,7 +6,6 @@
     preg_match_all($pattern_uri, __DIR__, $matches);
     $url_path = $url_host . $matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
-        
 ?>
 
  <div id="fb-root"></div>
@@ -18,7 +17,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="type-1223 main-background">
+<div class="type-1223">
 	<div class="onlineSupport">
 		<div class="container text-center center">
 				<a href="#" class="Button">  ONLINE CONSULTATION</a>
