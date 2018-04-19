@@ -20,15 +20,16 @@ jQuery(document).ready(function($) {
                     }
                 });
             }
- 
+            $(".search-bar").click(function () {
+                if($(".search-box").hasClass("appear"))
+                {
+                    $(".search-box").removeClass("appear");
+                    $(".search-bar").removeClass("pb");
+                }
+                else
+                {
+                    $(".search-box").addClass("appear");
+                    $(".search-bar").addClass("pb");
+                }
+            });
         });
-$(document).ready(
-    function () {
-        $(".btn-menu").click(function () {
-
-            
-            $("#test").hide();
-
-        });
-    }
-);

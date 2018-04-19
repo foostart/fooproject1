@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <header>
         <!--MENU-->
         <div class="navbar navbar-default navbar-fixed-top" id="menu-home">
-            <div class="container width-2034">
+            <div class="container width-1214">
                 <!--LOGO-->
                 <div class="logo" id="demo">
                     <a href="#">
@@ -29,11 +29,67 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li>
                             <div class="search-bar"><i class="fa fa-search"></i></div>
                             <div class="search-box">
-                                <form action="#">
-                                    <div class="form-search">
-                                        <input type="text" class="input-block-level"/>
-                                    </div>
-                                </form>
+                                <form class="search-form" id="main-search" name="main-search" action="#" method="post">
+                
+                <ul>
+                    <li>
+                        <label class="select">
+                            <select>
+                                <option name="color" value="0" selected="" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    - color system -
+                                </font></font></option>
+                                <!--[qs:color]-->
+                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">White system</font></font></option>
+                                
+                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Light color</font></font></option>
+                                
+                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gray system</font></font></option>
+                                
+                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dark color</font></font></option>
+                                <!--[qs:color]-->
+                                
+                                <!--
+                                <option value="1">淺色</option>
+                                <option value="2">灰色</option>
+                                <option value="3">深色</option>-->
+                                
+                            </select>
+                            <i></i>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="select">
+                            <select>
+                                <option name="ping" value="0" selected="" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    - number of flats -
+                                </font></font></option>
+                                <!--[qs:ping]-->
+                                <option value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Small flats(~20 tsubo)</font></font></option>
+                                
+                                <option value="2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">General(21-40 tsubos)</font></font></option>
+                                
+                                <option value="3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daping (40 pings~)</font></font></option>
+                                <!--[qs:ping]-->
+                                <!--
+                                <option value="1">10-20坪</option>
+                                <option value="2">21-35坪</option>
+                                <option value="3">36-50坪</option>
+                                <option value="3">50坪以上</option>
+                                -->
+                            </select>
+                            <i></i>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="input">
+                            <input name="schtxt" placeholder="Search..." type="text">
+                        </label>
+                    </li>
+                    <li>
+                        <a href="#" type="submit" value="submit" id="qschbtn"><i class="fa fa-search bts"></i></a>
+                    </li>
+                </ul>
+            </form>
                             </div>
                         </li>
                         <!--/END SEARCH-->
@@ -113,7 +169,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="padding-header"></div>
         <!--/END MENU-->
     </header>
-    
+</div>
 </div>
 
 

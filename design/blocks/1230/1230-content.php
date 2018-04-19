@@ -10,15 +10,17 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="content">
-                <div class="col-md-12">
+                
                     <div class="blog-top">
-                        <h4>Giới thiệu đặc trưng</h4>
-                    </div>
+                        <h4>Featured introduction</h4>
+                 
                 </div>
                 <div class=" clearfix"></div>
                 <div class="swiper-container">
+                    
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+
+                      <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                                 <div class="blog-img">
@@ -28,14 +30,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                                 </div>
                             </div>
-                            <h2 class="blog-title"><a href="#">Sang trọng, sang trọng và sắc nét</a></h2>
-                             <p class="blog-description"><a href="#">Thành phố Đài Bắc</a>
-                                <a class="right" href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Yanicke Taichung Flagship Store</a></h2>
+                             <p class="blog-description"><a href="#">Taipei City,Daan District,46 pings</a>
+                                <a class="right" href="#">Gray system</a></p>
 
                         </div>
                         
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -45,11 +47,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Xưởng đóng tàu Yanicke Taichung</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">The Yawen children listen to the</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                                <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -59,11 +62,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Sang trọng, sang trọng và sắc nét</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Wonderful, flawless</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                                <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -73,11 +77,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Công nghệ Liwei</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                                <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -87,11 +92,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Mẫu tuyệt vời, phong cách cuộc sống</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                            <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -101,11 +107,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Văn phòng Thành phố Mới Đài Bắc</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                            <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -115,11 +122,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Công nghệ Liwei</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                            <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -129,11 +137,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Mẫu tuyệt vời, phong cách cuộc sống</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                            <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -143,11 +152,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Công nghệ Liwei</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                            <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -157,17 +167,22 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a href="#" class="center-icon"><i class="fa fa-ellipsis-h"></i></a>
                             </div>
                         </div>
-                            <h2 class="blog-title"><a href="#">Văn phòng Thành phố Mới Đài Bắc</a></h2>
-                            <p class="blog-description"><a href="#">Thành phố Đài Bắc</a></p>
+                            <h2 class="blog-title"><a href="#">Home, Aesthetics, Art</a></h2>
+                            <p class="blog-description"><a href="#">Kaohsiung City,Former Gold District</a>
+                            <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
-
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div id="swiper_btn_prev" class="swiper_btn">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <div id="swiper_btn_next" class="swiper_btn">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+                
            
         </div>
     </div>
+</div>
 </div>
 </div>
