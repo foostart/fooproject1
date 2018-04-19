@@ -23,27 +23,19 @@
 
         <link href="../blocks/1215/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="../blocks/1214/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-<<<<<<< HEAD
-        <script src="../blocks/1214/js/bootstrap.js" type="text/javascript"></script>
-        <script src="../blocks/1214/js/1214.js" type="text/javascript"></script>
-=======
+
 	    <script src="../blocks/1214/js/1214.js" type="text/javascript"></script>
-	    <script src="../blocks/1214/js/bootstrap.js" type="text/javascript"></script>
-        <script src="../blocks/1214/js/bootstrap.min.js" type="text/javascript"></script>
->>>>>>> origin/master
+	    
+
         <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
         
 
     </head>
     <body>
-<<<<<<< HEAD
-        <?php include '../blocks/1214/1214-content.php'; ?>
 
-        <?php  include '../blocks/1215/1215-content.php'; ?>
-=======
         <?php  include '../blocks/1214/1214-content.php'; ?>
->>>>>>> origin/master
+
 
         <!--SLIDESHOW-->
        	<?php  include '../blocks/1215/1215-content.php'; ?>
