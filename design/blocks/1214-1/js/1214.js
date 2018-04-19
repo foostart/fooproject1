@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+            var lastScrollTop = 300;
             var $filter = $('.navbar');
             var $filterSpacer = $('<div />', {
                 "class": "vnkings-spacer",
@@ -17,6 +18,16 @@ jQuery(document).ready(function($) {
                     {
                         $filter.removeClass("fix");
                         $filterSpacer.remove();
+                    }
+                    if($(window).scrollTop() > 300)
+                    {
+                        var st = $(this).scrollTop();
+                        if (st > lastScrollTop){
+                               $filter.addClass("scrolldown");
+                           } else {
+                                $filter.removeClass("scrolldown");
+                           }
+                        lastScrollTop = st;
                     }
                 });
             }
