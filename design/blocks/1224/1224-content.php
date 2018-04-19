@@ -8,8 +8,8 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>
         <div class="type-e-1224">
-            <div class="top-header" 
-                style="background-image: url('images/page-title-bg.jpg'); " data-stellar-background-ratio="0.3">
+            <div class="top-header"
+             data-stellar-background-ratio="0.3">
                 <div class="tem">RESIDENTIAL SPACE </div>
                     <div class="border"></div>
                         <div class="name">
@@ -45,6 +45,7 @@
                                     </div>  
 
                                                <div class="deal-single panel">
+                                                
                         <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
                                          
                         </figure>
@@ -622,6 +623,12 @@
                             <li xclass="disabled"><a href="#">← </a></li>                           
                             <!--[page_loop]--><li class="active"><a href="#menu1" class="bold">1</a></li><li></li><li class="{class:2}"><a href="#menu2" class="">2</a></li><li></li><li class="{class:3}"><a href="#menu3" class="">3</a></li><li></li><li class="{class:4}"><a href="#menu4" class="">4</a></li><li></li><li class="{class:5}"><a href="#menu5" class="">5</a></li><li><!--[page_loop]-->
                             </li><li><a href="#"> →</a></li>
+
+
+
+
+
+
                         </ul>
                     </div>
                             </div>
