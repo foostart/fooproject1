@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="vi">
     <head>
-        <title>Team Page</title>
+        <title>Contact Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=100" />
         <meta http-equiv="REFRESH" content="1800" />
@@ -22,9 +22,9 @@
         <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
         <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
    
-        <link href="../blocks/1225/css/1225.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1217/css/type-1217.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1226/css/1226.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1216/css/type-1216.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
         
@@ -37,13 +37,12 @@
 
         <div class="clearfix"></div>
         <!-- Content -->
-        <?php include '../blocks/1225/1225-content.php' ?>
-
-        <?php include '../blocks/1226/1226-content.php' ?>
+        <?php include '../blocks/1217/1217-content.php' ?>
 
         <?php include '../blocks/1223/1223-content.php' ?>
 
-         <?php include '../blocks/1216/1216-content.php' ?>
+        <?php include '../blocks/1216/1216-content.php' ?>
+
 
     </body>
 </html>
