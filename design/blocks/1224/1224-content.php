@@ -8,7 +8,7 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>
         <div class="type-e-1224">
-            <div class="top-header" style="background-image: url('../blocks/1224/images/page-title-bg.jpg')" 
+            <div class="top-header" style="background-image: url('images/page-title-bg.jpg')" 
 
              data-stellar-background-ratio="0.3" >
     
