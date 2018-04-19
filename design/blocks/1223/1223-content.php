@@ -92,10 +92,10 @@
 			</div>
 
 			<div class="col-md-4">
-				<div class="facebookAPI">
+				
 			       <div class="fb-page" data-href="https://www.facebook.com/Fullhouseinteriordesign/" data-tabs="timeline" data-width="300" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Fullhouseinteriordesign/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Fullhouseinteriordesign/">成舍設計</a></blockquote></div>
 			    </div>
-			</div>           	
+		         	
        </div>
     </div>
 </div>

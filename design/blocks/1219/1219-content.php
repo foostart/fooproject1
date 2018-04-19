@@ -10,100 +10,64 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1219">
   <div class="container">
     <div class="row">
-     <div class="heading-block">
-       <h4>
-         <font>COMPANY ORGANIZATION</font>
-         <span class="depa">
-           <font>BRANCH</font>
-         </span>
+         <div class="in">COMPANY ORGANIZATION
+              <span class="depa">BRANCH</span>
+          </div>
          <div class="boder"></div>
-       </h4>
        <a href="#" class=" button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font >Daan Company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Daan Company</div>
        </a>
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Chengde company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Chengde company</div>
        </a>
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Revival One</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Revival One</div>
        </a>
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Revival II</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Revival II</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Zhongxiao Company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Zhongxiao Company</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Minsheng Company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Minsheng Company</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Zhongshan Company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Zhongshan Company</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>South West Company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">South West Company</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Nanjing company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Nanjing company</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>Dunbei Company</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">Dunbei Company</div>
        </a>
-
        <a href="#" class="button hvr-backward">
-         <i class="icon-line-arrow-right"></i>
-         <span>
-           <font>General Management Office</font>
-         </span>
+          <i class="fa fa-arrow-right ican"></i>
+           <div class="text">General Management Office</div>
        </a>
-     </div>
    </div>
  </div>
  <hr class="margin-tb-s">
  <div class="container">
    <div class="col-md-12">
-     <h4>
-       <font>COMPANY ORGANIZATION</font>
-       <span class="depa">
-         <font>DEPARTMENT</font>
-       </span>
+      <div class="in">COMPANY ORGANIZATION
+        <span class="depa">DEPARTMENT</span>
+      </div>
        <div class="boder"></div>
-     </h4>
+
      <div class="col-md-2 col-sm-2">
        <i class="fa fa-lightbulb-o icon"></i><br>
        <h3>DESIGN DEPARTMENT</h3>

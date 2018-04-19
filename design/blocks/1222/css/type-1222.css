@@ -1,3 +1,6 @@
+.type-1222 {
+  margin-top: 30px;
+}
 .type-1222 .aboutcase li {
   padding: 8px 0;
   border-bottom: 1px solid #ededed;
@@ -32,15 +35,16 @@
   margin-left: -50px;
   background-color: #fdd000;
 }
-.type-1222 .col-lg-3 {
-  min-height: 728px;
-}
 .type-1222 .aboutcase {
-  padding-left: 0px;
   list-style: url(../images/list-c.png) none inside;
 }
-@media (max-width: 691px) {
-  .type-1222 .col-lg-3 {
-    min-height: 700px;
+@media (min-width: 645px) {
+  .type-1222 .col-xs-6 #about2 {
+    height: 728px;
+  }
+}
+@media (min-width: 550px) {
+  .type-1222 .col-xs-6 #about2 {
+    height: 840px;
   }
 }

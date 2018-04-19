@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/1218.less', 'css/1218.css');
+    $less->compileFile('less/type-271.less', 'css/type-271.css');
     
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">       
       
-        <link href="<?php echo $url_path ?>/css/1218.css" rel="stylesheet" type="text/css" /> 
+        <link href="<?php echo $url_path ?>/css/type-271.css" rel="stylesheet" type="text/css" /> 
        
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
         <title>type-271</title>
@@ -33,7 +33,7 @@
 
     <body>
         <?php
-            include '1218-content.php';
+            include '271-content.php';
         ?>
        
      

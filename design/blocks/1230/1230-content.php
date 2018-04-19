@@ -10,15 +10,17 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="content">
-                <div class="col-md-12">
+                
                     <div class="blog-top">
                         <h4>Featured introduction</h4>
-                    </div>
+                 
                 </div>
                 <div class=" clearfix"></div>
                 <div class="swiper-container">
+                    
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+
+                      <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                                 <div class="blog-img">
@@ -35,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -50,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -65,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -80,7 +82,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -95,7 +97,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -110,7 +112,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -125,7 +127,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -140,7 +142,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -155,7 +157,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="right" href="#">Daping number</a></p>
                         </div>
                     </div>
-                    <div class="swiper-slide col-md-3 col-sm-3 col-xs-12">
+                    <div class="swiper-slide ">
                         <div class="blog-content">
                             <div class="blog">
                             <div class="blog-img">
@@ -171,9 +173,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div id="swiper_btn_prev" class="swiper_btn">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <div id="swiper_btn_next" class="swiper_btn">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+                
            
         </div>
     </div>

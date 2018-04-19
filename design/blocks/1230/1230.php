@@ -28,7 +28,7 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/> 
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>   
-        <title>type-1230</title>
+        <title>1230</title>
     </head>
 
     <body>
@@ -38,7 +38,7 @@
         <script>
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 20,
       slidesPerGroup: 1,
       loop: true,
       loopFillGroupWithBlank: true,
@@ -46,19 +46,25 @@
         el: '.swiper-pagination',
         clickable: true,
     },
-   nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
+   nextButton: '#swiper_btn_next',
+    prevButton: '#swiper_btn_prev',
     breakpoints: {
         
       1200: {
           slidesPerView: 3,
-          spaceBetween: 10,
+          spaceBetween: 20,
       },
-      997: {
+      990: {
           slidesPerView: 2,
           spaceBetween: 10,
       },
-      600: {
+      800: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+
+
+      770: {
           slidesPerView: 1,
           spaceBetween: 10,
             },

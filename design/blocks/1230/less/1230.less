@@ -1,5 +1,6 @@
 .type-1230{
-    .swiper-container {
+
+    .swiper-container { 
       width: 100%;
       height: 100%;
   }
@@ -21,14 +22,34 @@
       -webkit-align-items: center;
       align-items: center;
   }
-  .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 30px;
-     color: #ffa500;
+
+  .swiper_btn{
+    width:62px;
+    height: 62px;
+    margin: -22px 0 0 0;
+    background-position: 50% 50%;
+    top: 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    color: #fff255;
+
+  }
+  .swiper_btn:hover{
+color: #ffa500;
+  }
+  #swiper_btn_prev{
+    left: 5%;
+    font-size: 50px;
+  }
+  #swiper_btn_next{
+    right: 0;
+    font-size: 50px;
+
+  }
 
      
- }
 
  .swiper-slide:hover{
     .portfolio-overlay a{
@@ -44,6 +65,7 @@
         margin: 0;
         text-transform: uppercase;
         font-weight: bold;
+        margin-left: 10px;
     }
 }
 .blog-content .blog{
@@ -114,7 +136,7 @@
 
         a {
             color: #000000;
-            font-size: 14px;
+            font-size: 13px;
             text-decoration: none;
             font-weight: bold;
             transition: .3s ease-in-out;
@@ -144,183 +166,168 @@
 }
 @media all and (max-width: 1200px){
     .blog-content .blog-img img{
-        width: 310px;
+        width: 300px;
 
     }
+
+.blog-top {
+   
+    h4 {
+        margin-left: 2px;
+    }
+}
 }
 @media all and (max-width: 997px){
     .blog-content .blog-img img{
         width: 310px;
     }
-    .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 95px;
-     
- }
+   
 }
 @media all and (max-width: 991px){
-    .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 50px;
-     
- }
+
+ .blog-content .blog-img img{
+        width: 100%;
+    }
 }
-@media all and (max-width: 700px){
+@media all and (max-width: 800px){
     .blog-content .blog-img img{
-        width: 300px;
-    }
-    .blog-content .blog-description {
-        font-size: 11px;
-    }
-    .blog-content .blog-title {
-        a {
-            font-size: 12px;
-        }
+        width: 308px;
     }
     .blog-top {
-        h4 {
-            font-size:18px;
-        }
+   
+    h4 {
+        margin-left: 25px;
     }
 }
-@media all and (max-width: 640px){
-    .blog-content .blog-img img{
-        width: 270px;
+    }
+@media all and (max-width: 770px){
+   .blog-content .blog-img img{
+        width: 550px;
     }
     .blog-content .blog-description {
         font-size: 10px;
     }
     .blog-content .blog-title {
         a {
-            font-size: 12px;
+            font-size: 14px;
         }
     }
     .blog-top {
         h4 {
             font-size:18px;
+            margin-left: 0px;
+            text-align:center;
         }
     }
-}
+      #swiper_btn_prev{
+    left: 16%;
+  }
+  #swiper_btn_next{
+    right: 11%;
+  }
+
+
+    }
 @media all and (max-width: 600px){
-    .blog-content .blog-img img{
+   .blog-content .blog-img img{
+        width: 450px;
+    }
+    .blog-content .blog-description {
+        font-size: 10px;
+    }
+    .blog-content .blog-title {
+        a {
+            font-size: 14px;
+        }
+    }
+    .blog-top {
+        h4 {
+            font-size:18px;
+            margin-left: 0px;
+            text-align:center;
+        }
+    }
+              #swiper_btn_prev{
+    left: 16%;
+    font-size: 40px;
+  }
+  #swiper_btn_next{
+    right: 8%;
+    font-size: 40px;
+  }
+
+
+    }
+@media all and (max-width: 500px){
+   .blog-content .blog-img img{
         width: 350px;
     }
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 140px;
-     
- }
-}
-@media all and (max-width: 580px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 130px;
-     
- }
-}
-@media all and (max-width: 560px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 120px;
-     
- }
-}
-@media all and (max-width: 540px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 110px;
-     
- }
-}
-@media all and (max-width: 520px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 100px;
-     
- }
-  .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 100px;
-     
- }
-}
-@media all and (max-width: 500px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 90px;
-     
- }
-}
-@media all and (max-width: 480px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 80px;
-     
- }
-}
-@media all and (max-width: 450px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 70px;
-     
- }
-}
+    .blog-content .blog-description {
+        font-size: 10px;
+    }
+    .blog-content .blog-title {
+        a {
+            font-size: 14px;
+        }
+    }
+    .blog-top {
+        h4 {
+            font-size:18px;
+            margin-left: 0px;
+            text-align:center;
+        }
+    }
+                  #swiper_btn_prev{
+    left: 16%;
+    font-size: 40px;
+  }
+  #swiper_btn_next{
+    right: 6%;
+    font-size: 40px;
+  }
+
+
+    }
+
 @media all and (max-width: 400px){
     .blog-content .blog-img img{
         width: 300px;
     }
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 60px;
-     
- }
-}
-@media all and (max-width: 350px){
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 40px;
-     
- }
+                     #swiper_btn_prev{
+    left: 16%;
+    font-size: 40px;
+  }
+  #swiper_btn_next{
+    right: 4%;
+    font-size: 40px;
+  }
 }
 @media all and (max-width: 280px){
     .blog-content .blog-img img{
-        width: 250px;
+        width: 240px;
     }
     .blog-content .blog-description {
         font-size: 8px;
     }
     .blog-content .blog-title {
         a {
-            font-size: 11px;
+            font-size: 10px;
         }
     }
     .blog-top {
         h4 {
             font-size:15px;
+            margin-left: 0px;
         }
     }
-    .swiper-button-prev, .swiper-button-next{
-        font-size:10px; 
-    }
-    
-     .swiper-button-prev, .swiper-button-next{
-     width: 30px;
-     height: 30px;
-     padding: 0 25px;
-     
- }
+          #swiper_btn_prev{
+    left: 18%;
+    font-size: 35px;
+  }
+  #swiper_btn_next{
+    right: 1%;
+    font-size: 35px;
+  }
+   
 }
 }
