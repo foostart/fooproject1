@@ -34,6 +34,8 @@
     <body>
         <!-- Block Menu 1214-1 Chưa có  -->
         <?php include '../blocks/1214-1/1214-content.php' ?>
+
+        <div class="clearfix"></div>
         <!-- Content -->
         <?php include '../blocks/1225/1225-content.php' ?>
 
