@@ -16,19 +16,19 @@
 
         <link href="../blocks/1214/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1214/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
+        
+        <script src="../blocks/1214-1/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
+        <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
+   
         <link href="../blocks/1225/css/1225.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1226/css/1226.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1216/css/type-1216.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
-
-        <link href="../blocks/1215/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         
-         <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
-        <script src="../blocks/1214/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
+    
 
     </head>
     <body>
