@@ -13,11 +13,11 @@
         <meta name="keywords" content="Tai lieu web"/>
         <link rel="shortcut icon" href="blocks/2034/images/favicon.ico"/>
 
-
+        <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1224/css/1224.css" rel="stylesheet" type="text/css"/>
 
         <script src="../blocks/1214-1/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
+      
         <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
         <script src="../blocks/1214-1/js/bootstrap.js" type="text/javascript"></script>
         <script src="../blocks/1214-1/js/bootstrap.min.js" type="text/javascript"></script>
