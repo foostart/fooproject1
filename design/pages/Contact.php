@@ -14,23 +14,24 @@
 
         <link rel="shortcut icon" href="blocks/2034/images/favicon.ico"/>
 
-        <link href="../blocks/1214/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1214/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1214-1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1214-1/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-
+            <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1227/css/type-1227.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css"/>
         
 
-        <link href="../blocks/1215/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1214-1/css/swiper.min.css" rel="stylesheet" type="text/css"/>
 
-        <script src="../blocks/1214/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
+         <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
+        <script src="../blocks/1214-1/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../blocks/121-1/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../blocks/1215-1/js/swiper.min.js" type="text/javascript"></script>
 
     </head>
     <body>
-        
+          <?php  include '../blocks/1214-1/1214-content.php'; ?>
         <?php  include '../blocks/1227/271-content.php'; ?>
 
         <?php  include '../blocks/1223/1223-content.php'; ?>
