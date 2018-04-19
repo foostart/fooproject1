@@ -16,31 +16,34 @@
 
         <link href="../blocks/1214/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1214/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
-
         <link href="../blocks/1214/css/1214.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1215/css/1215.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1216/css/type-1216.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1217/css/type-1217.css" rel="stylesheet" type="text/css"/>
 
         <link href="../blocks/1215/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-
         <script src="../blocks/1214/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+
+	    <script src="../blocks/1214/js/1214.js" type="text/javascript"></script>
+	    
+
         <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
+        
 
     </head>
     <body>
-        <?php // include '../blocks/1214/1214-content.php'; ?>
 
-        <!--SLIDESHOW-->4
-        <?php  include '../blocks/1215/1215-content.php'; ?>
+        <?php  include '../blocks/1214/1214-content.php'; ?>
 
+
+        <!--SLIDESHOW-->
+       	<?php  include '../blocks/1215/1215-content.php'; ?>
         <?php  include '../blocks/1216/1216-content.php'; ?>
 
         <?php  include '../blocks/1217/1217-content.php'; ?>
 
-         <?php  include '../blocks/1216/1216-content.php'; ?>
+        <?php  include '../blocks/1216/1216-content.php'; ?>
 
     </body>
 </html>

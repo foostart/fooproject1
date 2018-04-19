@@ -8,8 +8,10 @@
     $url_path = str_replace('\\', '/', $url_path);
 ?>
         <div class="type-e-1224">
-            <div class="top-header" 
-                style="background-image: url('images/page-title-bg.jpg'); " data-stellar-background-ratio="0.3">
+            <div class="top-header" style="background-image: url('images/page-title-bg.jpg')" 
+
+             data-stellar-background-ratio="0.3" >
+    
                 <div class="tem">RESIDENTIAL SPACE </div>
                     <div class="border"></div>
                         <div class="name">
@@ -45,7 +47,10 @@
                                     </div>  
 
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9"> 
+                            <img src="<?php echo $url_path ?>/images/10.jpg" >
+
                                          
                         </figure>
                         <div class="deal-single-content">
@@ -77,7 +82,8 @@
 
                                             <li class="product">
                                                   <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                                        <img src="<?php echo $url_path ?>/images/10.jpg" >
                         </figure>
                     <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -107,7 +113,8 @@
 
                                             <li class="product">
                                                  <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                       
                         </figure>
                          <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -144,7 +151,8 @@
                                         <ul class="products">
                                             <li class="product">
                                                  <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                   <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -174,7 +182,8 @@
 
                                             <li class="product">
                                                 <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                       
                         </figure>
                      <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -204,7 +213,8 @@
 
                                             <li class="product">
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                    <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -241,7 +251,8 @@
                                         <ul class="products">
                                             <li class="product">
                                                  <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                   <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -271,7 +282,8 @@
 
                                             <li class="product">
                                                 <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
                         </figure>
                      <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -301,7 +313,8 @@
 
                                             <li class="product">
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                    <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -336,7 +349,8 @@
                                         <ul class="products">
                                             <li class="product">
                                                  <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                   <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -366,7 +380,8 @@
 
                                             <li class="product">
                                                 <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
                         </figure>
                      <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -396,7 +411,8 @@
 
                                             <li class="product">
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" > 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                    <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -431,7 +447,8 @@
                                         <ul class="products">
                                             <li class="product">
                                                  <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
                         </figure>
                   <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -461,7 +478,8 @@
 
                                             <li class="product">
                                                 <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
                         </figure>
                      <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -491,7 +509,8 @@
 
                                             <li class="product">
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9"> 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
                         </figure>
                    <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -526,7 +545,8 @@
                                         <ul class="products">
                                             <li class="product">
                                                  <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                       
                         </figure>
                   <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -556,7 +576,8 @@
 
                                             <li class="product">
                                                 <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
                         </figure>
                      <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -586,7 +607,8 @@
 
                                             <li class="product">
                                                <div class="deal-single panel">
-                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >                       
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9" >   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
                         </figure>
                    <div class="deal-single-content">
                             <div class="pr-md-10">
@@ -617,11 +639,1257 @@
                                     </div>
                                 
                                 </div>
+                                <div class="tab-content">
+
+
+                    
+                                <div id="home" class="tab-pane fade">
+                                   
+                                    <div class="related">
+                                        <ul class="products">
+
+                                            <li class="product">
+
+                                                  <div class="portfolio-overlay" data-lightbox="gallery">
+                                        <a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>  
+
+                                               <div class="deal-single panel">
+
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                            <img src="<?php echo $url_path ?>/images/10.jpg" >
+                                         
+                        </figure>
+                        <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                        </div>
+                    </div>
+                                            </li>
+
+                                            <li class="product">
+                                                  <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9"> 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
+                        </figure>
+                    <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                         <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div id="menu1" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                    <div id="menu2" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>    <div id="menu3" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">     
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                  
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>    <div id="menu4" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">      
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                 
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>    <div id="menu5" class="tab-pane fade active in">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">       
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                
+                                </div>
+       
+
+
+                         <div class="tab-content">
+
+
+                    
+                                <div id="home" class="tab-pane fade">
+                                   
+                                    <div class="related">
+                                        <ul class="products">
+
+                                            <li class="product">
+
+                                                  <div class="portfolio-overlay" data-lightbox="gallery">
+                                        <a href="#" class="center-icon"><i class="icon-line-ellipsis"></i></a>
+                                    </div>  
+
+                                               <div class="deal-single panel">
+
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                            <img src="<?php echo $url_path ?>/images/10.jpg" >
+                                         
+                        </figure>
+                        <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                        </div>
+                    </div>
+                                            </li>
+
+                                            <li class="product">
+                                                  <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
+                        </figure>
+                    <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">     
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                  
+                        </figure>
+                         <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div id="menu1" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9"> 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                    <div id="menu2" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>    <div id="menu3" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>    <div id="menu4" class="tab-pane fade">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9"> 
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                      
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">   
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                    
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                </div>    <div id="menu5" class="tab-pane fade active in">
+                               
+                                    <div class="related">
+                                        <ul class="products">
+                                            <li class="product">
+                                                 <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">  
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                     
+                        </figure>
+                  <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                                <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">    
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                   
+                        </figure>
+                     <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+
+                                            <li class="product">
+                                               <div class="deal-single panel">
+                        <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">     
+                        <img src="<?php echo $url_path ?>/images/10.jpg" >                  
+                        </figure>
+                   <div class="deal-single-content">
+                            <div class="pr-md-10">
+                               
+                                <h3 class="deal-title">
+                                    <a href="#">Beautiful, craftsman</a>
+                                </h3>
+                                     <ul class="deal-meta list-inline">
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <font><font> , </font></font>
+                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <font><font> , 
+                                     </font></font>
+                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                </li>
+                                   
+                                </ul>
+                              
+                            </div>
+                            <div class="deal-price">
+                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
+                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                </a> </font></h3>
+                            </div>
+                    </div>
+                                            </div></li>
+                                        </ul>
+                                    </div>
+                                
+                                </div>
+       
+
+
+
+
+
+
+                        </ul>
+                    </div>
+                            </div>           
+
+
+
+                        </ul>
+                    </div>
+                            </div>
                                 <div class="text-center">
                                 <ul class="pagination nobottommargin padding-t-b-30">
-                            <li xclass="disabled"><a href="#">← </a></li>                           
-                            <!--[page_loop]--><li class="active"><a href="#menu1" class="bold">1</a></li><li></li><li class="{class:2}"><a href="#menu2" class="">2</a></li><li></li><li class="{class:3}"><a href="#menu3" class="">3</a></li><li></li><li class="{class:4}"><a href="#menu4" class="">4</a></li><li></li><li class="{class:5}"><a href="#menu5" class="">5</a></li><li><!--[page_loop]-->
-                            </li><li><a href="#"> →</a></li>
+                           
+
+     <li class="active">
+        <li xclass="disabled"><a href="#">← </a></li>  
+                                <li><a data-toggle="tab" href="#menu1">1</a></li>
+                                <li><a data-toggle="tab" href="#menu2">2</a></li>
+                                <li><a data-toggle="tab" href="#menu3">3</a></li>
+                                <li><a data-toggle="tab" href="#menu4">4</a></li>
+                                <li><a data-toggle="tab" href="#menu5">5</a></li> 
+                                   <li>
+                                <a href="#"> →</a>
+                            </li>
+
+
+
+
                         </ul>
                     </div>
                             </div>
