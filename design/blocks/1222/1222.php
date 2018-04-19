@@ -13,33 +13,24 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/type-1222.less', 'css/type-1222.css');
+$less->compileFile('less/1222.less', 'css/1222.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">       
-
-        
-        <link href="<?php echo $url_path ?>/css/type-1222.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1222.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
         <title>type-1222</title>
     </head>
-
     <body>
         <?php include '1222-content.php'; ?>
-<<<<<<< HEAD
         
         
         
-=======
-
->>>>>>> be874d527e5387cb1492d50a1f32dad209aca26d
     </body>
-
 </html>
 
 
