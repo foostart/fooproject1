@@ -21,20 +21,14 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>modul 457</title>
-    
-
+    <title>modul 1228</title>
+   
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">       
     <link href="<?php echo $url_path ?>/css/1228.css" rel="stylesheet" type="text/css" />
-    <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-
-    <script src="<?php echo $url_path ?>/js/swiper.min.js" ></script>
-    <script src="<?php echo $url_path ?>/js/xzoom.min.js" ></script>
-    <script src="<?php echo $url_path ?>/js/1_hover.js" ></script>
-     <script src="<?php echo $url_path ?>/js/owl.carousel.min.js"></script>
-     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>    
-
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/script.js" type="text/javascript"></script>
+   
 </head>
 
 <body>
