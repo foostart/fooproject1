@@ -24,7 +24,7 @@
    
         <link href="../blocks/1225/css/1225.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1226/css/1226.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1216/css/type-1216.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
         
