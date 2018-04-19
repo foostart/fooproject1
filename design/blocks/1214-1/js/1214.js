@@ -20,21 +20,16 @@ jQuery(document).ready(function($) {
                     }
                 });
             }
-            var $fill = $('.navbar-default');
-            if ($fill.size())
-            {
-                $(window).scroll(function ()
+            $(".search-bar").click(function () {
+                if($(".search-box").hasClass("appear"))
                 {
-                    if (!$filter.hasClass('fix-nav') && $(window).scrollTop() > 0)
-                    {
-                        $filter.before($filterSpacer);
-                        $filter.addClass("fix-nav");
-                    }
-                    else if ($filter.hasClass('fix-nav')  && $(window).scrollTop() == 0)
-                    {
-                        $filter.removeClass("fix-nav");
-                        $filterSpacer.remove();
-                    }
-                });
-            }
+                    $(".search-box").removeClass("appear");
+                    $(".search-bar").removeClass("pb");
+                }
+                else
+                {
+                    $(".search-box").addClass("appear");
+                    $(".search-bar").addClass("pb");
+                }
+            });
         });

@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--LOGO-->
                 <div class="logo" id="demo">
                     <a href="#">
-                        <img src="http://<?php echo $url_path ?>/images/logo-dark.png"
+                        <img src="http://<?php echo $url_path ?>/images/logo.png"
                              alt=""/>
                     </a>
                 </div>
