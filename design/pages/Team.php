@@ -20,20 +20,20 @@
         <script src="../blocks/1214-1/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
-        <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
+        <script src="../blocks/1214/js/1214.js" type="text/javascript"></script>
    
         <link href="../blocks/1225/css/1225.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1226/css/1226.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1216/css/type-1216.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1214/css/1214.css" rel="stylesheet" type="text/css"/>
         
     
 
     </head>
     <body>
         <!-- Block Menu 1214-1 Chưa có  -->
-        <?php include '../blocks/1214-1/1214-content.php' ?>
+        <?php include '../blocks/1214/1214-1-content.php' ?>
 
         <div class="clearfix"></div>
         <!-- Content -->
