@@ -6,9 +6,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="type-1214">
-
     <header>
         <!--MENU-->
         <div class="navbar navbar-default navbar-fixed-top" id="menu-home">
@@ -16,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--LOGO-->
                 <div class="logo" id="demo">
                     <a href="#">
-                        <img src="http://<?php echo $url_path ?>/images/logo-dark.png"
+                        <img  class = "img-logo" src="http://<?php echo $url_path ?>/images/logo-dark.png"
                              alt=""/>
                     </a>
                 </div>
@@ -32,54 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <form class="search-form" id="main-search" name="main-search" action="#" method="post">
                 
                 <ul>
-                    <li>
-                        <label class="select">
-                            <select>
-                                <option name="color" value="0" selected="" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                                    - color system -
-                                </font></font></option>
-                                <!--[qs:color]-->
-                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">White system</font></font></option>
-                                
-                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Light color</font></font></option>
-                                
-                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gray system</font></font></option>
-                                
-                                <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dark color</font></font></option>
-                                <!--[qs:color]-->
-                                
-                                <!--
-                                <option value="1">淺色</option>
-                                <option value="2">灰色</option>
-                                <option value="3">深色</option>-->
-                                
-                            </select>
-                            <i></i>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="select">
-                            <select>
-                                <option name="ping" value="0" selected="" disabled=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                                    - number of flats -
-                                </font></font></option>
-                                <!--[qs:ping]-->
-                                <option value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Small flats(~20 tsubo)</font></font></option>
-                                
-                                <option value="2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">General(21-40 tsubos)</font></font></option>
-                                
-                                <option value="3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daping (40 pings~)</font></font></option>
-                                <!--[qs:ping]-->
-                                <!--
-                                <option value="1">10-20坪</option>
-                                <option value="2">21-35坪</option>
-                                <option value="3">36-50坪</option>
-                                <option value="3">50坪以上</option>
-                                -->
-                            </select>
-                            <i></i>
-                        </label>
-                    </li>
+                    
                     <li>
                         <label class="input">
                             <input name="schtxt" placeholder="Search..." type="text">
@@ -113,7 +64,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown show-hover">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Company Profile<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <div class="arr-nav"></div>
                                 <li><a href="#">about chengshe</a></li>
                                 <li><a href="#">company organization</a></li>
                                 <li><a href="#">workflow</a></li>
@@ -124,7 +74,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown show-hover">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">work overview<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <div class="arr-nav"></div>
                                 <li><a href="#">residential space</a></li>
                                 <li><a href="#">comercial space</a></li>
                                 <li><a href="#">office space</a></li>
@@ -134,7 +83,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown show-hover">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">design team<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <div class="arr-nav"></div>
                                 <li><a href="#">daan comany</a></li>
                                 <li><a href="#">chengde company</a></li>
                                 <li><a href="#">revival one</a></li>
@@ -146,7 +94,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown show-hover">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">customer service<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <div class="arr-nav"></div>
                                 <li><a href="#">online consultation</a></li>
                                 <li><a href="#">customer service</a></li>
                             </ul>
@@ -169,7 +116,6 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="padding-header"></div>
         <!--/END MENU-->
     </header>
-</div>
 </div>
 
 

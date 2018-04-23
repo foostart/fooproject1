@@ -36,11 +36,13 @@ jQuery(document).ready(function($) {
                 {
                     $(".search-box").removeClass("appear");
                     $(".search-bar").removeClass("pb");
+                    $(".img-logo").removeClass("fh");
                 }
                 else
                 {
                     $(".search-box").addClass("appear");
                     $(".search-bar").addClass("pb");
+                    $(".img-logo").addClass("fh");
                 }
             });
         });

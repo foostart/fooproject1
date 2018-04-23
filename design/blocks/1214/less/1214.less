@@ -1,4 +1,3 @@
-
 .type-1214 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     a {
@@ -11,7 +10,8 @@
         padding: 0 30px;
     }
 	.scrolldown {
-		top: -100px;
+		top: -110px;
+        transition: all 0.7s ease;
 	}
     .navbar-default {
         position: absolute;
@@ -70,6 +70,28 @@
             }
         }
     }
+    .navbar-1 {
+        position: relative;
+        background-color: #fff !important;
+        .navbar-nav> li >a {
+            color: #333 !important;
+        }
+        .navbar-nav> li >a:hover,.navbar-nav> li >a:focus {
+            color: #333 !important;
+        }
+        .navbar-nav>.open>a,.navbar-nav>.open>a:hover,.navbar-nav>.open>a:focus {
+            color: #333!important;
+            background-color: transparent !important;
+        }
+        .navbar-toggle {
+            .icon-bar {
+                background-color: #333 !important;
+            }
+        }
+        .fa {
+            color: #333;
+        }
+    }
     .fix {
         position: fixed!important;
         background-color: #3f3f3f;
@@ -87,8 +109,7 @@
         }
         .cart {
             transition: all 0.5s ease;
-            margin: 0 40px;
-            margin-left: 0;
+            margin: 0;
             top: 30px;
         }
         .navbar-toggle {
@@ -108,7 +129,7 @@
         }
     }
     .cart {
-        margin: 16px 40px;
+        margin: 16px 0;
         margin-left: 0;
         transition: all 0.5s ease;
         .search-form {
@@ -126,7 +147,9 @@
                 padding: 4px;
                 margin-top: -5px;
                 margin-right: 5px;
+                background: linear-gradient(#333 50%,#999);
                 background-color: #3f3f3f;
+                border-radius: 4px;
             }
         }
         .appear {
@@ -159,19 +182,6 @@
     .fa-angle-down {
         margin-left: 5px;
     }
-    .navbar-nav > .open > a {
-        background-color: @background-color-green;
-        color: @font-color-white;
-    }
-    .top-strip {
-        float: left;
-        width: 100%;
-        border-top: 5px solid @font-color-green;
-        padding: 20px 0px 10px 0;
-        border-bottom: solid 1px @font-color-gray-1;
-        display: block;
-        transition: display 0.5s ease-in-out;
-    }   
     .open>.dropdown-menu {
         opacity: 1;
     }
@@ -181,17 +191,8 @@
             padding-top: 30px;
             padding-bottom: 39px;
         }
-        .caret {
-            border-top: 4px solid @font-color-gray-4;
-        }
         a:hover, a:focus {
             text-decoration: none;
-        }
-        a:hover {
-            color: @font-color-green;
-            .caret {
-                border-top: 4px solid @font-color-green;
-            }
         }
         ul {
             background-color: #3f3f3f;
@@ -213,20 +214,6 @@
             padding-left: 12px;
         }
     }
-    .arr-nav {
-            position: absolute;
-            top: -14px;
-            left: 50%;
-            width: 7px;
-            height: 13px;
-            margin-left: -7px;
-            background: #3f3f3f;
-            box-shadow: 0 0 0 12px transparent;
-            content: '';
-            border-right: 9px solid transparent;
-            border-left: 9px solid transparent;
-            border-bottom: 9px solid #333;
-    }
     .dropdown-menu {
         border: none;
         transition: all 0.5s ease;
@@ -241,12 +228,6 @@
             line-height: 20px;
             white-space: nowrap;
         }
-    }
-    .input-block-level {
-        display: block;
-        width: 100%;
-        min-height: 30px;
-        box-sizing: border-box;
     }
     .width-1214{
         .logo {
@@ -280,14 +261,6 @@
             transition: all 0.6s ease;
             cursor: pointer;
         }
-        .notSearch {
-            transform: scale(1, 0) !important;
-            transition: all 0.4s ease;
-            -webkit-transition: all 0.4s ease;
-            -moz-transition: all 0.4s ease;
-            -ms-transition: all 0.4s ease;
-            -o-transition: all 0.4s ease;
-        }
         .navbar-header {
             //margin-top: 10px;
             text-align: center;
@@ -295,11 +268,13 @@
         }
     }
     .search-box {
+        background: linear-gradient(#fafafa,#333);
         background-color: #fafafa;
         transition: all 0.5s ease;
-        min-width: 575px;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+        min-width: 260px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
         float: left;
         right: -10px;
         top: -100px;
@@ -307,7 +282,7 @@
         margin: 0;
         z-index: 100;
         input[type="text"] {
-            border-radius: 0px;
+            border-radius: 4px;
             margin: 0px;
         }
     }
@@ -354,7 +329,7 @@
             margin-right: 0;
         }
         .navbar-toggle {
-            display: block;
+            
             position: absolute;
             right: 0;
         }
@@ -403,6 +378,20 @@
         }
     }
     @media screen and (max-width: 767px) {
+        .navbar-1 {
+            .navbar-nav {
+                background-color: #fff !important;
+                .open .dropdown-menu {
+                    background-color: #fafafa;
+                }
+                .open .dropdown-menu> li >a {
+                    color: #333;
+                }
+                .open .dropdown-menu> li >a:hover {
+                    color: #8b6117;
+                }
+            }
+        }
         .navbar-default .navbar-collapse .navbar-nav {
             padding-left: 15px;
             background-color: #3f3f3f;
@@ -442,39 +431,17 @@
             padding: 0 20px;
         }  
     }
-    @media screen and (max-width: 670px) {
-        .search-box {
-            min-width: 250px;
-            top: -180px;
-            right: 30px;
-            input[type="text"] {
-                max-width: 190px;
-            }
+    
+    @media screen and (max-width: 720px) {
+        .fh {
+            transform: scale(0.67);
         }
-        .cart {
-            .appear {
-                top: -12px;
-            }
-            .pb {
-                margin-bottom: 35px;
-            }
-        }
-        .fix {
-            .cart {
-                .appear {
-                    top: 5px;
-                }
-                .pb {
-                    margin-bottom: 70px;
-                }
-            }
-        }
-
+        
     }
     @media screen and (max-width: 959px) and (min-width: 768px) {
         .cart {
             position: absolute;
-            right: 45px;
+            right: 40px;
             top: 35px;
         }
         .logo {
