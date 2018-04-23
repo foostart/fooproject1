@@ -22,7 +22,7 @@
         <script src="../blocks/1214/js/bootstrap.js" type="text/javascript"></script>
         <script src="../blocks/1214/js/bootstrap.min.js" type="text/javascript"></script>
 
-        <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
 
         <link href="../blocks/1216/css/type-1216.css" rel="stylesheet" type="text/css"/>
         <script src="../blocks/1224/js/bootstrap.min.js" type="text/javascript"></script>
