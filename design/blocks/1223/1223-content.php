@@ -17,7 +17,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="type-1223 main-background">
+<div class="type-1223">
 	<div class="onlineSupport">
 		<div class="container text-center center">
 				<a href="#" class="Button">  ONLINE CONSULTATION</a>
