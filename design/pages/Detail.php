@@ -15,19 +15,19 @@
 
 
 
-        <script src="../blocks/1214-1/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../blocks/1214-1/js/jquery-2.1.4.min.js"></script>
         <link href="../blocks/1214-1/css/1214.css" rel="stylesheet" type="text/css"/>
-        <script src="../blocks/1214-1/js/1214.js" type="text/javascript"></script>
-        <script src="../blocks/1214-1/js/bootstrap.js" type="text/javascript"></script>
-        <script src="../blocks/1214-1/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../blocks/1214-1/js/1214.js"></script>
+        <script src="../blocks/1214-1/js/bootstrap.js"></script>
+        <script src="../blocks/1214-1/js/bootstrap.min.js"></script>
         <link href="../blocks/1214-1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
 
         <link href="../blocks/1228/1228/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../blocks/1228/1228/css/1228.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1228/1228/css/font-awesome.min.css" rel="stylesheet"> 
-        <script src="../blocks/1228/1228/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../blocks/1228/1228/js/script.js" type="text/javascript"></script>
+        <script src="../blocks/1228/1228/js/jquery-2.1.4.min.js"></script>
+        <script src="../blocks/1228/1228/js/script.js"></script>
 
         <link href="../blocks/1229/css/bootstrap.min.css" rel="stylesheet">
         <link href="../blocks/1229/css/font-awesome.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 
     </head>
     <body>
-        <?php include '../blocks/1214-1/1214-content.php'; ?>
+        <?php include '../blocks/1214/1214-1-content.php'; ?>
         <div class="clearfix"></div>
         <?php include '../blocks/1228/1228/1228-content.php'; ?>
         <?php include '../blocks/1229/1229-content.php'; ?>
