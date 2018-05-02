@@ -18,34 +18,29 @@
         <link href="../blocks/1214/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="../blocks/1214/js/jquery-2.1.4.min.js"></script>
         <script src="../blocks/1214/js/1214.js"></script>
-        <link href="../blocks/1228/1228/css/font-awesome.min.css" rel="stylesheet"> 
+        <link href="../blocks/1228/css/font-awesome.min.css" rel="stylesheet"> 
 
 
 
         <link href="../blocks/1214/css/1214.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1228/1228/css/1228.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1228/css/1228.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1229/css/type-1229.css" rel="stylesheet" type="text/css" />
         <link href="../blocks/1230/css/1230.css" rel="stylesheet" type="text/css" />
         <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css" />
         
 
         
-        <script src="../blocks/1228/1228/js/jquery-2.1.4.min.js"></script>
-        <script src="../blocks/1228/1228/js/script.js"></script>
+        <script src="../blocks/1228/js/jquery-2.1.4.min.js"></script>
+        <script src="../blocks/1228/js/script.js"></script>
         <link href="../blocks/1230/css/swiper.min.css" rel="stylesheet" type="text/css"/> 
         <script src="../blocks/1230/js/swiper.min.js"></script>  
-
-
-         
-
-
 
 
     </head>
     <body>
         <?php include '../blocks/1214/1214-1-content.php'; ?>
         <div class="clearfix"></div>
-        <?php include '../blocks/1228/1228/1228-content.php'; ?>
+        <?php include '../blocks/1228/1228-content.php'; ?>
         <?php include '../blocks/1229/1229-content.php'; ?>
         <?php include '../blocks/1230/1230-content.php'; ?>
         <?php include '../blocks/1223/1223-content.php'; ?>
