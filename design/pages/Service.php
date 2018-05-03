@@ -27,7 +27,7 @@
          <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
         
         <script src="../blocks/121/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
+      
 
     </head>
     <body>
