@@ -14,25 +14,25 @@
 
         <link rel="shortcut icon" href="blocks/2034/images/favicon.ico"/>
 
-        <link href="../blocks/1214/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1214/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1232/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1232/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-            <link href="../blocks/1214/css/1214.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1227/css/type-1227.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1223/css/type-1223.css" rel="stylesheet" type="text/css"/>
+            <link href="../blocks/1232/css/1232.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1227/css/1227.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
         
 
-        <link href="../blocks/1214/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-	<script src="../blocks/1214/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-         <script src="../blocks/1214/js/1214.js" type="text/javascript"></script>
+        <link href="../blocks/1232/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+	<script src="../blocks/1232/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+         <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
         
         <script src="../blocks/121/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
 
     </head>
     <body>
-          <?php  include '../blocks/1214/1214-1-content.php'; ?>
-        <?php  include '../blocks/1227/271-content.php'; ?>
+          <?php  include '../blocks/1232/1232-content.php'; ?>
+        <?php  include '../blocks/1227/1227-content.php'; ?>
 
         <?php  include '../blocks/1223/1223-content.php'; ?>
 
