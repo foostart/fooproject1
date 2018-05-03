@@ -13,16 +13,16 @@
         <meta name="keywords" content="Tai lieu web"/>
         <link rel="shortcut icon" href="blocks/2034/images/favicon.ico"/>
 
-        <link href="../blocks/1232/css/1232.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1224/css/1224.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1224/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1216/css/1216.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1232/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>     
-        
         <script src="../blocks/1232/js/jquery-2.1.4.min.js"></script>
         <script src="../blocks/1232/js/1232.js"></script>
-      
+        
+        <link href="../blocks/1232/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
+        <link href="../blocks/1224/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1232/css/1232.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1224/css/1224.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
+        <link href="../blocks/1216/css/1216.css" rel="stylesheet" type="text/css"/>
+    
     </head>
     <body>
         <?php include '../blocks/1232/1232-content.php'; ?>
