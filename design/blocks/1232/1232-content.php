@@ -17,7 +17,7 @@ if (empty($url_path)) {
                 <!--LOGO-->
                 <div class="logo" id="demo">
                     <a href="#">
-                        <img class="img-logo" src="http://<?php echo $url_path ?>/images/logo.png"
+                        <img class="img-logo" src="<?php echo $url_path ?>/images/logo.png"
                              alt=""/>
                     </a>
                 </div>
