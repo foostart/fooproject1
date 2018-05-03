@@ -1,16 +1,19 @@
 <?php
-$url_host = 'http://'.$_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+include '../config.php';
+if (empty($url_path)) {
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+}
 ?>
 <div class="type-1215">
     <div class="container">
         <div class="row">
-         <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
+           <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" data-swiper-autoplay="2000">
                     <a>
@@ -73,5 +76,4 @@ $url_path = str_replace('\\', '/', $url_path);
         prevButton: '#swiper_btn_prev'
 
     });
-    
 </script>
