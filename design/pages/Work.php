@@ -20,14 +20,14 @@
         <link href="../blocks/1216/css/1216.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1232/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>     
         
-        <script src="../blocks/1232/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
+        <script src="../blocks/1232/js/jquery-2.1.4.min.js"></script>
+        <script src="../blocks/1232/js/1232.js"></script>
       
     </head>
     <body>
         <?php include '../blocks/1232/1232-content.php'; ?>
         <div class="clearfix"></div>
-
+        
         <?php include '../blocks/1224/1224-content.php'; ?>
 
         <?php include '../blocks/1223/1223-content.php'; ?>
