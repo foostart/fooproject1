@@ -31,9 +31,9 @@
         
 
         <script src="../blocks/1232/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
+         <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
         
     </head>
     <body>
