@@ -13,20 +13,18 @@
         <meta name="keywords" content="Tai lieu web"/>
 
         <link rel="shortcut icon" href="blocks/2034/images/favicon.ico"/>
-
         <link href="../blocks/1232/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1232/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        
-        <script src="../blocks/1232/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../blocks/1215/js/swiper.min.js" type="text/javascript"></script>
-        <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
-   
         <link href="../blocks/1217/css/1217.css" rel="stylesheet" type="text/css"/>
-        <link href="../blocks/1226/css/1226.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1223/css/1223.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1216/css/1216.css" rel="stylesheet" type="text/css"/>
         <link href="../blocks/1232/css/1232.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="../blocks/1232/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../blocks/1232/js/1232.js" type="text/javascript"></script>
+         <script src="../blocks/1223/js/1223.js" type="text/javascript"></script>
+   
+
         
     
 
