@@ -1,11 +1,14 @@
 <?php
-$url_host = 'http://'.$_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
+include '../config.php';
+if (empty($url_path)) {
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+}
 ?>
 <div class="type-1215">
     <div class="container">
@@ -55,23 +58,3 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
 </div>
 </div>
-
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        autoplay: {
-            delay: 5000,
-        },
-        slidesPerView: 1,
-        spaceBetween: 10,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        speed: 2000,
-        nextButton: '#swiper_btn_next',
-        prevButton: '#swiper_btn_prev'
-
-    });
-    
-</script>

@@ -1,9 +1,6 @@
 .clear {
   clear: both;
 }
-body {
-  background-image: url;
-}
 .type-e-1224 .pagination {
   display: inline-block;
   margin: 20px 0;
@@ -98,12 +95,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.type-e-1224 .top-header {
-  background-image: url(../images/page-title-bg.jpg);
-}
-.type-e-1224 #img {
-  data-bg-img: url(../images/works_data-371.jpg);
-  background-image: url(../images/works_data-369.jpg);
+.type-e-1224 img {
+  vertical-align: middle;
+  width: 100%;
 }
 .type-e-1224 .deal-thumbnail {
   background-position: center;

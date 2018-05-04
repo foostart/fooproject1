@@ -1,10 +1,13 @@
 <?php
+include '../config.php';
+if (empty($url_path)) {
 $url_host = 'http://'.$_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
+}
 ?>
 <div class="type-1230">
     <div class="container">
@@ -12,8 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="content">
                 
                     <div class="blog-top">
-                        <h4>Featured introduction</h4>
-                 
+                        <h4>Featured introduction</h4>  
                 </div>
                 <div class=" clearfix"></div>
                 <div class="swiper-container">
@@ -186,42 +188,5 @@ $url_path = str_replace('\\', '/', $url_path);
 </div>
 </div>
 </div>
-        <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 20,
-      slidesPerGroup: 1,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-   nextButton: '#swiper_btn_next',
-    prevButton: '#swiper_btn_prev',
-    breakpoints: {
+<script src="<?php echo $url_path ?>/js/1230.js"></script>
         
-      1200: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-      },
-      990: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-      },
-      800: {
-          slidesPerView: 2,
-          spaceBetween: 30,
-      },
-
-
-      770: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-            },
-            
-
-        } 
-
-      });
-      </script>

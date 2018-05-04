@@ -12,96 +12,82 @@ $url_path = str_replace('\\', '/', $url_path);
         <!-- Loading Screen -->
         <div class="jssorl-009-spin">
         </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-          <div data-p="170.00">
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:480px;overflow:hidden;">
+          <div data-p="200.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/7.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/7.jpg" />
-
                 </div>
             </div>
-            <div data-p="170.00">
+            <div data-p="200.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/bg-header-6.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/bg-header-6.jpg" />
-
                 </div>
             </div>
-            <div data-p="170.00">
+            <div data-p="200.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/content-rooms-1.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/content-rooms-1.jpg" />
-
                 </div>
             </div>
-            <div data-p="170.00">
+            <div data-p="200.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/content-rooms-3.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/content-rooms-3.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/content-rooms.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/content-rooms.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/5.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/5.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/6.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/6.jpg" />
-
                 </div>
-            </div>
-            
-            
+            </div>                    
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/1.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/1.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/2.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/2.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/3.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/3.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/4.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/4.jpg" />
-
                 </div>
             </div>
             <div data-p="170.00">
                 <img data-u="image" src="<?php echo $url_path ?>/images/5.jpg" />
                 <div data-u="thumb">
                     <img data-u="thumb" src="<?php echo $url_path ?>/images/5.jpg" />
-
                 </div>
             </div>
         </div>
         <!-- Thumbnail Navigator -->
-        <div data-u="thumbnavigator" class="jssort111" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;cursor:default;" data-autocenter="1" data-scale-bottom="0.75">
+        <div data-u="thumbnavigator" class="jssort111" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;cursor:default;" >
             <div data-u="slides">
                 <div data-u="prototype" class="p">
                     <div data-u="thumbnailtemplate" class="t"></div>
@@ -109,12 +95,12 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
         <!-- Arrow Navigator -->
-        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:162px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:162px;left:25px;" >
             <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
             <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
             </svg>
         </div>
-        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:162px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:162px;right:25px;" >
             <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
             <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
             </svg>

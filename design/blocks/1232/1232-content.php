@@ -1,10 +1,13 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
+include '../config.php';
+if (empty($url_path)) {
+	$url_host = 'http://'.$_SERVER['HTTP_HOST'];
+	$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+	$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+	preg_match_all($pattern_uri, __DIR__, $matches);
+	$url_path = $url_host . $matches[1][0];
+	$url_path = str_replace('\\', '/', $url_path);
+}
 ?>
 <div class="type-1214">
     <header>
@@ -14,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--LOGO-->
                 <div class="logo" id="demo">
                     <a href="#">
-                        <img class="img-logo" src="http://<?php echo $url_path ?>/images/logo.png"
+                        <img class="img-logo" src="<?php echo $url_path ?>/images/logo.png"
                              alt=""/>
                     </a>
                 </div>
