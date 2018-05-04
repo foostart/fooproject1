@@ -1,3 +1,3 @@
 <?php
 
-$url_path = '';
+$sala = '\\';
