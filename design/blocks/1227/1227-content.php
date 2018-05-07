@@ -14,22 +14,22 @@
             <img class="image-s" src="<?php echo $url_path ?>/images/bg-header-6.jpg">
             <div class="text-center-image">
                 <div class="text-1">
-                    <span>Where does it come from?</span>
+                        <span>DỊCH VỤ</span>
                 </div>
                 <hr class="hr-size-color">
-                <div class="text-2">Contrary to popular belief</div>
+                <div class="text-2">Dịch vụ khách hàng</div>
             </div>
         </div>
 		
 		<div class="container">
             <div class="pading-header">
                 <div class="text-3">
-                    <span>What is</span>
-                    <span class="color">Lorem Ipsum?</span>
+                    <span>CÁC DỊCH VỤ</span>
+                    <span class="color"> CỐT LÕI</span>
                 </div>
                 <hr class="hr-size-color2">
                 <div class="text-5">
-                    <span> Contrary to popular belief, Lorem Ipsum is not simply random text.  </span>
+                    <span>Vui lòng liên hệ và lắng nghe các đề xuất để có thể loại bỏ các vấn đề một cách kịp thời. Trở thành cầu nối giao tiếp giữa khách hàng và khách hàng, đạt được sự hài lòng 100%</span>
                 </div>
 
             </div>
@@ -38,55 +38,58 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="center-text">
                         <div class="pading-top">
-                            <i class="border glyphicon glyphicon-user fa-3x " aria-hidden="true"></i>
+                              <i class="border fa fa-bed fa-3x" aria-hidden="true" ></i>
                         </div>
                         <div class="text-6">
-                            <span>Where can I get some? </span>
+                            <span>Dịch Vụ Tư Vấn Khách Sạn</span>
 
                         </div>
                         <div class="hr-size-color3"></div>
                         
                         <div class="text-7">
-                            <span>The standard chunk of Lorem Ipsum </span>
+                            <span>Điện thoại: 02-2501-3278 ext.209 </span>
                         </div>
                         <div class="text-7">
-                            <span>chunk of Lorem Ipsum </span>
+                            <span>FAX: 02-2501-3387 </span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="center-text">
                         <div class="pading-top">
-                            <i class="border glyphicon glyphicon-user fa-3x " aria-hidden="true"></i>
+                           
+                            <i class=" border fa fa-building fa-3x" aria-hidden="true"></i>
                         </div>
                         <div class="text-6">
-                            <span>Where can I get some? </span>
+                            <span>Dịch Vụ Tư Vấn Căn Hộ Chung Cư</span>
 
                         </div>
                         <div class="hr-size-color3"></div>
                         <div class="text-7">
-                            <span>The standard chunk of Lorem Ipsum </span>
+                            <span>Điện thoại: 02-2501-3278 ext.207</span>
                         </div>
                         <div class="text-7">
-                            <span>chunk of Lorem Ipsum </span>
+                            <span>FAX: 02-2501-3387</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="center-text">
                         <div class="pading-top">
-                            <i class="border glyphicon glyphicon-user fa-3x " aria-hidden="true"></i>
+                         
+                            
+                            <i class=" border fa fa-home fa-3x" aria-hidden="true"></i>
                         </div>
                         <div class="text-6">
-                            <span>Where can I get some? </span>
+                            <span>Dịch Vụ Tư Vấn Nhà Ở </span>
 
                         </div>
                         <div class="hr-size-color3"></div>
                         <div class="text-7">
-                            <span>The standard chunk of Lorem Ipsum </span>
+                            <span>Điện thoại: 02-2501-3278 ext.202</span>
                         </div>
                         <div class="text-7">
-                            <span>chunk of Lorem Ipsum </span>
+                            <span>FAX: 02-2501-3387</span>
                         </div>
                     </div>
                 </div>
@@ -96,7 +99,7 @@
 
                 <hr>
                 <div class="text-8">
-                    <span>Lorem Ipsum </span> <span>0158644245</span>
+                    <span> Liên Hệ Qua Đường Dây Nóng : <span>0164447514544 </span>  </span>
                 </div>
                 <hr>
 

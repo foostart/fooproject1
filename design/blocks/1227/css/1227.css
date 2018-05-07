@@ -24,7 +24,7 @@
   transform: translate(-50%,-50%);
 }
 .type-1227 .text-center-image .text-1 {
-  font-family: fantasy;
+  font-family: sans-serif;
   font-size: 2.5em;
 }
 .type-1227 .text-2 {
@@ -76,9 +76,6 @@
   color: #f0ad4e;
   transition: 0.9s;
 }
-.type-1227 .glyphicon {
-  color: #f0ad4e;
-}
 .type-1227 .text-6 {
   padding-top: 10px;
   font-size: 20px;
@@ -88,6 +85,9 @@
   width: 10%;
   margin: 10px auto;
   padding: 0;
+}
+.type-1227 .fa-3x:hover {
+  color: brown;
 }
 .type-1227 .footer-2 {
   padding-top: 40px;
