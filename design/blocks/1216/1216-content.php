@@ -91,7 +91,7 @@
                     </li>
                 </ul>
                 <div class="top-text">
-                    <span class="text">No-pay consultation line</span><span> 0809-080-158</span>
+                    <span class="text">Đường tham vấn không trả tiền</span><span> 0809-080-158</span>
                     <div class='icon-social'>
                         <i class="fa fa-facebook"></i>  
                         <i class="fa fa-envelope email"></i> 
