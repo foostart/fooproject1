@@ -13,8 +13,8 @@
 <div class="type-1223">
 	<div class="onlineSupport">
 		<div class="container text-center center">
-				<a href="#" class="Button">  ONLINE CONSULTATION</a>
-				<span>For space planning and other issues, please fill out the form of the dial the toll-tree line directly.	</span>
+				<a href="#" class="Button">  TƯ VẤN TRỰC TUYẾN </a>
+				<span>Để được hỗ trợ đầy đủ nhất, xin vui lòng điền đầy đủ thông tin vào phiếu sau.</span>
 		</div>
 	</div>
 
@@ -27,58 +27,51 @@
 			<div class="col-md-8">
 			      <div class="col-md-2 col-sm-4 col-xs-12">
 			      		<div class="widget clearfix">
-			      			<h5> COMPANY PROFILE</h5>
+			      			<h5> GIỚI THIỆU CÔNG TY</h5>
 			     			<ul> 
-			     				<li><a href="#" >About Chengshe</a></li>
-			     				<li><a href="#" >Company organization</a></li>
-			     				<li><a href="#" >Workflow</a></li>
-			     				<li><a href="#" >Charges</a></li>
-			     				<li><a href="#" >Case performance</a></li>
+			     				<li><a href="#" >Về chúng tôi. </a></li>
+			     				<li><a href="#" >Liên hệ với chúng tôi. </a></li>
 			     			</ul>
 			      		</div>
 			      </div>
 			       <div class="col-md-2 col-sm-4 col-xs-12 ">
 			      		<div class="widget clearfix">
-			      			<h5> WORK OVERVIEW</h5>
+			      			<h5> DỊCH VỤ </h5>
 			     			<ul>
-			     				<li><a href="#" >Residential space</a></li>
-			     				<li><a href="#" >Commercial space</a></li>
-			     				<li><a href="#" >Office Space</a></li>
+			     				<li><a href="#" >Thiết kế bản vẽ. </a></li>
+			     				<li><a href="#" >Thi công công trình. </a></li>
+			     				<li><a href="#" >Tư vấn nhà đất. </a></li>
 			     			</ul>
 			      		</div>
 			      </div>
 			       <div class="col-md-2 col-sm-4 col-xs-12 ">
 			      		<div class="widget clearfix">
-			      			<h5> DESIGN TEAM</h5>
+			      			<h5> THIẾT KẾ MẪU</h5>
 			     			<ul>
-			     				<li><a href="#" >Daan Company</a></li>
-			     				<li><a href="#" >Chengde company</a></li>
-			     				<li><a href="#" >Revival One</a></li>
-			     				<li><a href="#" >Revival II</a></li>
-			     				<li><a href="#" >Zhongxiao Company</a></li>
-			     				<li><a href="#" >Minsheng Company</a></li>
-			     				<li><a href="#" >Nanjing companyy</a></li>
-			     				<li><a href="#" >Dunbei Company</a></li>
+			     				<li><a href="#" >Nhà cấp 4.</a></li>
+			     				<li><a href="#" >Nhà 2 tầng. </a></li>
+			     				<li><a href="#" >Văn phòng phẩm.</a></li>
+			     				<li><a href="#" >...</a></li>
+			     				
 			     			</ul>
 			      		</div>
 			      </div>
 			       <div class="col-md-2 col-sm-4 col-xs-12 ">
 			      		<div class="widget clearfix">
-			      			<h5>CUSTOMER SERVICE</h5>
+			      			<h5>DỊCH VỤ KHÁCH HÀNG</h5>
 			     			<ul>
-			     				<li><a href="#" >Online consultation</a></li>
-			     				<li><a href="#" >Commercial space</a></li>
-			     				<li><a href="#" >customer service</a></li>
+			     				<li><a href="#" >Tư vấn trực tuy</a></li>
+			     				<li><a href="#" >Hỗ trợ khách hàng.</a></li>
 			     			</ul>
 			      		</div>
 			      </div>
 			       <div class="col-md-3 col-sm-4 col-xs-12 ">
 			      		<div class="widget clearfix">
-			      			<h5> REFERRAL LINK</h5>
+			      			<h5> ĐỐI TÁC THƯƠNG MẠI</h5>
 			     			<ul>
-			     				<li><a href="#" >Cheng Fan Group</a></li>
-			     				<li><a href="#" >Cheng blogs</a></li>
-			     				<li><a href="#" >media reports</a></li>
+			     				<li><a href="#" >Công Ty Hòn Ngọc</a></li>
+			     				<li><a href="#" >Công Ty Viễn Đông</a></li>
+			     			
 			     			</ul>
 			      		</div>
 			      </div>
