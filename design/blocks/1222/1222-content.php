@@ -13,24 +13,24 @@
 
     <div class="container clearfix margin-s">
         <div class="heading-block fancy-title  center ">
-            <h4>Case <span>performance</span></h4>
+            <h4>Bản <span>mẫu</span></h4>
         </div>
         <!-- 住宅 -->
         <div class="nobottommargin clearfix ">
             <div class="center clearfix ">
-                <h5>Residential space example</h5>
+                <h5>Những công trình đã được thi công</h5>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <ul class="aboutcase">
                       
-                        <li>Chiyoda Lee Post</li>
-                        <li>Tianmu Xu Mansion</li>
-                        <li>Itabashi Mai Residence</li>
-                        <li>Tainan Gold Mansion</li>                 
-                        <li>Tangquan Kong Mansion</li>
-                        <li>Waldorf Astoria House</li>
-                        <li>Qingshan Town Residence</li>
+                        <li>Chung cư Địa Ốc 7 </li>
+                        <li>Chung cư Tecco Towers</li>
+                        <li>Chung cư Man Thiện</li>
+                        <li>Chung cư Homyland 2</li>                 
+                        <li>Công viên thỏ trắng</li>
+                        <li>Căn hộ Gold River View</li>
+                        <li>Căn hộ The Elysium</li>
                         
                     </ul>
                 </div>
@@ -38,13 +38,13 @@
                  <div class="col-lg-3 col-md-4 col-sm-6">
                     <ul class="aboutcase">
                       
-                        <li>Chiyoda Lee Post</li>
-                        <li>Tianmu Xu Mansion</li>
-                        <li>Itabashi Mai Residence</li>
-                        <li>Tainan Gold Mansion</li>                 
-                        <li>Tangquan Kong Mansion</li>
-                        <li>Waldorf Astoria House</li>
-                        <li>Qingshan Town Residence</li>
+                         <li>Chung cư Địa Ốc 7 </li>
+                        <li>Chung cư Tecco Towers</li>
+                        <li>Chung cư Man Thiện</li>
+                        <li>Chung cư Homyland 2</li>                 
+                        <li>Công viên thỏ trắng</li>
+                        <li>Căn hộ Gold River View</li>
+                        <li>Căn hộ The Elysium</li>
                         
                     </ul>
                 </div>
@@ -52,13 +52,13 @@
                  <div class="col-lg-3 col-md-4 col-sm-6">
                     <ul class="aboutcase">
                       
-                        <li>Chiyoda Lee Post</li>
-                        <li>Tianmu Xu Mansion</li>
-                        <li>Itabashi Mai Residence</li>
-                        <li>Tainan Gold Mansion</li>                 
-                        <li>Tangquan Kong Mansion</li>
-                        <li>Waldorf Astoria House</li>
-                        <li>Qingshan Town Residence</li>
+                         <li>Chung cư Địa Ốc 7 </li>
+                        <li>Chung cư Tecco Towers</li>
+                        <li>Chung cư Man Thiện</li>
+                        <li>Chung cư Homyland 2</li>                 
+                        <li>Công viên thỏ trắng</li>
+                        <li>Căn hộ Gold River View</li>
+                        <li>Căn hộ The Elysium</li>
                         
                     </ul>
                 </div>
@@ -66,13 +66,13 @@
                  <div class="col-lg-3 col-md-4 col-sm-6">
                     <ul class="aboutcase">
                       
-                        <li>Chiyoda Lee Post</li>
-                        <li>Tianmu Xu Mansion</li>
-                        <li>Itabashi Mai Residence</li>
-                        <li>Tainan Gold Mansion</li>                 
-                        <li>Tangquan Kong Mansion</li>
-                        <li>Waldorf Astoria House</li>
-                        <li>Qingshan Town Residence</li>
+                        <li>Chung cư Địa Ốc 7 </li>
+                        <li>Chung cư Tecco Towers</li>
+                        <li>Chung cư Man Thiện</li>
+                        <li>Chung cư Homyland 2</li>                 
+                        <li>Công viên thỏ trắng</li>
+                        <li>Căn hộ Gold River View</li>
+                        <li>Căn hộ The Elysium</li>
                         
                     </ul>
                 </div>
