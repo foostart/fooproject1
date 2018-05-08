@@ -1,24 +1,22 @@
 <?php
- include '../config.php';
- 
-        $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
-        $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-        
-        preg_match_all($pattern_uri, __DIR__, $matches);
-        $url_path = $url_host . $matches[1][0];
-        $url_path = str_replace('\\', '/', $url_path);
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
 ?>
         <div class="type-e-1224">
             <div class="top-header" style="background-image: url('<?php echo $url_path ?>/images/page-title-bg.jpg')" 
 
              data-stellar-background-ratio="0.3" >
     
-                <div class="tem">RESIDENTIAL SPACE </div>
+                <div class="tem">KHÔNG GIAN NHÀ Ở </div>
                     <div class="border"></div>
                         <div class="name">
 
-                                <a href="#">Home<a> / <a href="#">Residential space</a>
+                                <a href="#">Trang Chủ<a> / <a href="#">Khu nhà ở</a>
                         </div>
             </div>      
             <div class="container rescure">
@@ -26,12 +24,12 @@
                     <div class="col-md-12">        
                         <div class="nav1 rescure1">
                             <ul class="nav nav-tabs">
-                                <li class="active"><a data-toggle="tab" href="#home">ALL</a></li>
-                                <li><a data-toggle="tab" href="#menu1">Dark color</a></li>
-                                <li><a data-toggle="tab" href="#menu2">Light color</a></li>
-                                <li><a data-toggle="tab" href="#menu3">Gray system</a></li>
-                                <li><a data-toggle="tab" href="#menu4">Dapin number</a></li>
-                                <li><a data-toggle="tab" href="#menu5">xiaopin number</a></li>                         
+                                <li class="active"><a data-toggle="tab" href="#home">Tất cả</a></li>
+                                <li><a data-toggle="tab" href="#menu1">màu tối</a></li>
+                                <li><a data-toggle="tab" href="#menu2">Màu sáng</a></li>
+                                <li><a data-toggle="tab" href="#menu3">Mẫu giới thiệu</a></li>
+                                <li><a data-toggle="tab" href="#menu4">chọn nhiều nhất</a></li>
+                                <li><a data-toggle="tab" href="#menu5">mẫu khác</a></li>                         
                             </ul>
                   <div class="tab-content">                
                                 <div id="home" class="tab-pane fade in active">
@@ -54,23 +52,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                         </div>
@@ -86,23 +84,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -117,23 +115,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -155,23 +153,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -186,23 +184,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -217,23 +215,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -255,23 +253,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -286,23 +284,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -317,23 +315,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -353,23 +351,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -384,23 +382,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -415,23 +413,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -451,23 +449,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -482,23 +480,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -513,23 +511,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -549,23 +547,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -580,23 +578,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -611,23 +609,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font > , </font></font>
-                                    <a href="#"><font ><font > Shulin District</font></font></a>
+                                    <a href="#"><font ><font > xem thêm</font></font></a>
                                     <font ><font > , 
                                      </font></font>
-                                     <a href="#"><font><font >36-pyeong </font></font></a>
+                                     <a href="#"><font><font >Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font ">wooden</font>
-                                </a><font > ,<a href="#"><font >deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font ">Tòa nhà</font>
+                                </a><font > ,<a href="#"><font >Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -661,23 +659,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font> , </font></font>
-                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <a href="#"><font><font> xem thêm</font></font></a>
                                     <font><font> , 
                                      </font></font>
-                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                     <a href="#"><font><font>Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
-                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font "="">Tòa nhà</font>
+                                </a><font> ,<a href="#"><font>Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                         </div>
@@ -693,23 +691,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font> , </font></font>
-                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <a href="#"><font><font> xem thêm</font></font></a>
                                     <font><font> , 
                                      </font></font>
-                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                     <a href="#"><font><font>Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
-                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font "="">Tòa nhà</font>
+                                </a><font> ,<a href="#"><font>Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -724,23 +722,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font> , </font></font>
-                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <a href="#"><font><font> xem thêm</font></font></a>
                                     <font><font> , 
                                      </font></font>
-                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                     <a href="#"><font><font>Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
-                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font "="">Tòa nhà</font>
+                                </a><font> ,<a href="#"><font>Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -775,23 +773,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font> , </font></font>
-                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <a href="#"><font><font> xem thêm</font></font></a>
                                     <font><font> , 
                                      </font></font>
-                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                     <a href="#"><font><font>Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
-                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font "="">Tòa nhà</font>
+                                </a><font> ,<a href="#"><font>Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                         </div>
@@ -807,23 +805,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font> , </font></font>
-                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <a href="#"><font><font> xem thêm</font></font></a>
                                     <font><font> , 
                                      </font></font>
-                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                     <a href="#"><font><font>Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
-                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font "="">Tòa nhà</font>
+                                </a><font> ,<a href="#"><font>Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
@@ -838,23 +836,23 @@
                             <div class="pr-md-10">
                                
                                 <h3 class="deal-title">
-                                    <a href="#">Beautiful, craftsman</a>
+                                    <a href="#">không gian đẹp, nhà ở</a>
                                 </h3>
                                      <ul class="deal-meta list-inline">
-                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>New Taipei City</font></font></a>
+                                    <li><i class="ico fa fa-map-marker"></i><a href="#"><font><font>TP. HCM mới</font></font></a>
                                     <font><font> , </font></font>
-                                    <a href="#"><font><font> Shulin District</font></font></a>
+                                    <a href="#"><font><font> xem thêm</font></font></a>
                                     <font><font> , 
                                      </font></font>
-                                     <a href="#"><font><font>36-pyeong </font></font></a>
+                                     <a href="#"><font><font>Chi tiết </font></font></a>
                                 </li>
                                    
                                 </ul>
                               
                             </div>
                             <div class="deal-price">
-                                <h3 class="price text-right"><a href="#"><font "="">wooden</font>
-                                </a><font> ,<a href="#"><font>deep and shallow mixed building </font>
+                                <h3 class="price text-right"><a href="#"><font "="">Tòa nhà</font>
+                                </a><font> ,<a href="#"><font>Bằng gổ và một số thiết kế khác </font>
                                 </a> </font></h3>
                             </div>
                     </div>
