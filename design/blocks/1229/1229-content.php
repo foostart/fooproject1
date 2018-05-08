@@ -15,35 +15,35 @@
             <div class="col-md-8 description">
                 <dl class="case_info_detail">
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Nature of space</dt>
-                        <dd class="col2 col-md-9 col-sm-9">Residential space</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Không gian</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Khu dân cư</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Location</dt>
-                        <dd class="col2 col-md-9 col-sm-9">New forest district</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Vị trí</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Thủ Đức</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Building area</dt>
-                        <dd class="col2 col-md-9 col-sm-9">36 pings</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Diện tích</dt>
+                        <dd class="col2 col-md-9 col-sm-9">1000m<sup>2</sup></dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Indoor pattern</dt>
-                        <dd class="col2 col-md-9 col-sm-9">Living room, dining room, study, master bedroom, guest room</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Mô hình trong nhà</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Phòng khách, phòng ăn, phòng học, phòng ngủ, phòng vệ sinh</dd>
                     </div>
                     <hr>
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Main material</dt>
-                        <dd class="col2 col-md-9 col-sm-9">Solid wood peel, US resistant board, painted iron, painted glass, sandblasted glass, matte quartz brick</dd>
+                        <dt class="col1 col-md-3 col-sm-3">Vật liệu chính</dt>
+                        <dd class="col2 col-md-9 col-sm-9">Gỗ rắn, sơn thủy tinh, thạch anh, sơn xịn</dd>
                     </div>
                 </dl>
 
             </div>
             <div class="col-md-4 meta">
-                <button type="button" class="btn btn_meta">Shallow mashups</button>
-                <button type="button" class="btn btn_meta">Wooden</button>
+                <button type="button" class="btn btn_meta">Đá cẩm thạch</button>
+                <button type="button" class="btn btn_meta">Gỗ</button>
                 <div class="social_icons">
                     <a class="icon icon_facebook" href="#">
                             <i class="fa fa-facebook-f"></i>
@@ -61,8 +61,8 @@
                 <div class="post left_post">
                     <a class="arrow_left" href="#"><i class="fa fa-arrow-left"></i></a>
                     <div class="content_post">
-                        <a class="post_title" href="#"><h5>Carefully crafted, magnificent</h5></a>
-                        <span><a href="#">Taichung City</a> , <a href="#">Central District</a> , <a href="#">70 pyeong</a> , <a href="#">Daping</a> , <a href="#">light-colored</a></span>
+                        <a class="post_title" href="#"><h5>Chế tác cẩn thận, tráng lệ</h5></a>
+                        <span><a href="#">HCM City</a> , <a href="#">Quân 1</a> , <a href="#">700m<sup>2</sup></a> , <a href="#">cổ kính</a> , <a href="#">màu lạnh</a></span>
                     </div>
                 </div>
                 
@@ -71,8 +71,8 @@
                 <div class="post right_post">
                 <a class="arrow_right" href="#"><i class="fa fa-arrow-right"></i></a>
                 <div class="content_post">
-                    <a class="post_title" href="#"><h5>Life is picturesque and contentment</h5></a>
-                    <span><a href="#">Taipei City</a> , <a href="#">Songshan District</a> , <a href="#">38 pyeong</a> , <a href="#">light-colored</a> , <a href="#">marble</a></span>
+                    <a class="post_title" href="#"><h5>Cuộc sống thật đẹp và thoải mái</h5></a>
+                    <span><a href="#">HCM City</a> , <a href="#">Quận 7</a> , <a href="#">2000m<sup>2</sup></a> , <a href="#">màu sáng</a> , <a href="#">đá cẩm thạch</a></span>
                 </div>
             </div>
             </div>
