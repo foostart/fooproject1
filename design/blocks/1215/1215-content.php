@@ -10,50 +10,59 @@
         $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1215">
-    <div class="container">
+    <div class="container bg">
         <div class="row">
+        <!--SWIPER SLIDE-->
          <div id="swiper" class="swiper-container swiper-container-horizontal swiper-container-fade">
             <div class="swiper-wrapper">
+            <!--SLIDE-CAPTION-->
                 <div class="swiper-slide" data-swiper-autoplay="2000">
                     <a>
                         <img src="<?php echo $url_path ?>/images/banner_data-13.jpg" title="" alt="">
                         <div class="slider_caption text ">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
+                            <h2>Không Gian Nhà Bạn</h2>
+                            <h3>Góc Thư Giãn</h3>
                         </div>
                     </a>
                 </div>
+                <!--/END-SLIDE-->
+                <!--SLIDE-CAPTION-->
                 <div class="swiper-slide" data-swiper-autoplay="2000">
                     <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-14.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
+                        <img src="<?php echo $url_path ?>/images/banner_data-13.jpg" title="" alt="">
+                        <div class="slider_caption text ">
+                            <h2>Không Gian Nhà Bạn</h2>
+                            <h3>Góc Làm Việc</h3>
                         </div>
                     </a>
                 </div>
+                <!--/END-SLIDE-->
+                 <!--SLIDE-CAPTION-->
                 <div class="swiper-slide" data-swiper-autoplay="2000">
                     <a>
-                        <img src="<?php echo $url_path ?>/images/banner_data-15.jpg" title="" alt="">
-                        <div class="slider_caption text">
-                            <h2>Living</h2>
-                            <h3>Beautiful Home</h3>
+                        <img src="<?php echo $url_path ?>/images/banner_data-13.jpg" title="" alt="">
+                        <div class="slider_caption text ">
+                            <h2>Không Gian Nhà Bạn</h2>
+                            <h3>Góc Học Tập</h3>
                         </div>
                     </a>
                 </div>
+                <!--/END-SLIDE-->
             </div>
-            
+            <!--BUTTON PREV-->
             <div id="swiper_btn_prev" class="swiper_btn">
                 <i class="fa fa-angle-left"></i>
             </div>
+            <!--BUTTON NEXT-->
             <div id="swiper_btn_next" class="swiper_btn">
                 <i class="fa fa-angle-right"></i>
             </div>
+            <!--BUTTON DOWN-->
             <div id="swiper_btn_down" class="swiper_btn">
                 <i class="fa fa-angle-down"></i>
             </div>
-            
         </div>
+         <!--/SWIPER SLIDE-->
     </div>
 </div>
 </div>

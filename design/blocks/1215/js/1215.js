@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var swiper = new Swiper('.swiper-container', {
         autoplay: {
             delay: 5000,
@@ -13,4 +14,7 @@ var swiper = new Swiper('.swiper-container', {
         nextButton: '#swiper_btn_next',
         prevButton: '#swiper_btn_prev'
 
-    });   
+    });
+});
+
+
