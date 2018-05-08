@@ -14,76 +14,77 @@
         <div class="row">
             <div class="title"> 
                 <h4>
-                    <span>CHARGE </span>
-                    <span class="standard">STANDARD</span>
+                    <span>Bảng Giá</span>
+                    <span class="standard">Vật Tư</span>
                 </h4>
             </div>
             <div class="text"> 
-                <p>Providing high-quality, high-level professional design is a service concept. The following are our basic fee standards. They are for reference only and will be adjusted depending on the circumstances of the case (such as: the number of changes, delays in the operation period, etc.)</p>
+                <p>
+Bảng báo giá đá xây dựng trong 24h – Giá đá xây dựng được cập nhật liên tục nhằm đáp ứng nhu cầu mua đá xây dựng của quý khách hàng.</p>
             </div>
             <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
                         <th>
-                            <p>Project</p>
+                            <p>TÊN VẬT LIỆU XÂY DỰNG</p>
                         </th>
                         <th>
-                            <p>Estimated unit price per construction</p>
+                            <p>TÍNH M3</p>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                            <p>Residential</p>                          
+                            <p>Đá 1 x 2 (đen)</p>                          
                         </td>
                         <td>
-                            <p>30000~50000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p> High-grade residential</p>
-                        </td>
-                        <td>
-                            <p>50000~100000</p>
+                            <p>295000</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Office</p>
+                            <p>Đá 1 x 2 (xanh)</p>
                         </td>
                         <td>
-                            <p>10000~30000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Senior Office</p>
-                        </td>
-                        <td>
-                            <p>30000~50000</p>
+                            <p>430000</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Commercial space</p>
+                            <p>Đá mi bụi</p>
                         </td>
                         <td>
-                            <p>Depending on the case</p>
+                            <p>300000</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p>Design fee</p>
+                            <p>Đá mi sàn</p>
                         </td>
                         <td>
-                            <p>Calculated at 5% to 10% of the total engineering cost</p>
+                            <p>290000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Đá 0 x 4 loại 1</p>
+                        </td>
+                        <td>
+                            <p>270000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Đá 0 x 4 loại 1</p>
+                        </td>
+                        <td>
+                            <p>250000</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <p>Note: The valuation of each case will detail the details of unit price, size, material, etc</p>
+            <p>Ghi chú :Bảng giá đá xây dựng – Sài Gòn CMC. Cập nhật mới nhất bảng giá vật liệu xây dựng, đơn báo giá các loại đá xây dựng hiện nay tại TPHCM, cung cấp cho khách hàng những thông tin mới nhất, chính xác nhất về giá các loại đát xây dựng trong năm 2018 tại Sài Gòn CMC.</p>
         </div>
     </div>
 </div>
